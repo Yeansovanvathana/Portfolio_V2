@@ -1,19 +1,17 @@
-import { Inter } from "next/font/google";
 import Head from "next/head";
 import { Header } from "@/components/Header";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Page } from "@/components/Page"
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-{#DAD9D5}">
       <Head>
           <title>Vathana Portfolio</title>
       </Head>
       
       <Header />
       {/* Header */}
-
+      <Page />
       {/* Page */}
 
       {/* About */}
