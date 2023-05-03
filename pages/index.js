@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Vathana Portfolio</title>
       </Head>
-      <section className=" bg-red-100">
+      <section className="bg-primary-100">
         <Header />
         {/* Header */}
         <Page />

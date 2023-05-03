@@ -11,7 +11,7 @@ export const Page = () => {
             I'm <span className=" text-green-600">Yean</span> Sovanvathana
           </h2>
           <h3 className="text-xl py-2">Developer and designer.</h3>
-          <p className="text-md py-5 leading-8 text-gray-500 md:text-xl max-w-xl">
+          <p className="text-md py-5 leading-8 text-gray-500 max-w-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis
             neque, venenatis a volutpat et, ultrices.
           </p>
@@ -29,7 +29,7 @@ export const Page = () => {
           </div>
         </div>
       </div>
-      <div className="invisible lg:visible flex justify-center items-center py-10 mt-16">
+      <div className="hidden lg:flex justify-center items-center py-10 mt-16">
         <div className="border bg-gray-100 w-4/6 h-24 rounded-xl grid grid-cols-3 divide-x divide-gray-300">
           <div></div>
           <div></div>
