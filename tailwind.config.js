@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primary: {
           100: "#D9D9D9",
+          200: "#EBEBEB",
         },
       },
       fontFamily: {
