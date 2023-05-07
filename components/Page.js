@@ -26,9 +26,9 @@ export const Page = () => {
             neque, venenatis a volutpat et, ultrices.
           </p>
         </div>
-        <div className="flex justify-center items-center p-10 pb-16 md:pt-5">
-          <div className="bg-primary-200 w-44 h-64 rounded-3xl relative lg:w-56 lg:h-80">
-            <div className="w-44 h-64 rounded-3xl absolute overflow-hidden right-5 -top-5 lg:w-56 lg:h-80">
+        <div className="flex justify-center items-center p-10 pb-12 md:pt-5">
+          <div className="bg-primary-200 w-40 h-64 rounded-3xl relative lg:h-80 lg:w-48">
+            <div className="w-40 h-64 rounded-3xl absolute overflow-hidden right-5 -top-5 lg:w-48 lg:h-80">
               <Image
                 src={Vathana}
                 alt="Vathana"
