@@ -10,7 +10,7 @@ export const Header = () => {
         <a href="">Home</a>
         <a href="">Home</a>
       </div>
-      <button className="uppercase bg-gradient-to-r from-green-500 py-2 px-4 rounded text-sm hover:bg-green-500">
+      <button className="uppercase bg-gradient-to-r from-secondary-100 py-2 px-4 rounded text-sm hover:bg-secondary-100">
         Contact
       </button>
     </header>

@@ -12,6 +12,10 @@ module.exports = {
           100: "#D9D9D9",
           200: "#EBEBEB",
         },
+        secondary: {
+          100: "#bdc3c7",
+          200: "#2c3e50",
+        },
       },
       fontFamily: {
         lekton: ["Lekton"],

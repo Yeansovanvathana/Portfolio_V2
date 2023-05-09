@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Header } from "@/components/Header";
 import { Page } from "@/components/Page";
+import { Design } from "@/components/Design";
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
         {/* Header */}
         <Page />
         {/* Page */}
+      </section>
+      <section>
+        <Design />
       </section>
 
       {/* About */}

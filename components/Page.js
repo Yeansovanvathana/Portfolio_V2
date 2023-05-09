@@ -15,12 +15,12 @@ export const Page = () => {
     <div>
       <div className="lg:flex md:flex justify-between max-w-screen-xl mx-auto z-20 xl-items-center lg:mt-24 md:mt-24">
         <div className="p-10 text-center lg:text-start md:text-start">
-          <h2 className="text-3xl py-2 font-medium">
+          <h2 className="text-3xl py-2 font-medium lg:text-4xl">
             {/* I'm <span className=" text-green-600">Yean</span> Sovanvathana */}
             {text}
             <Cursor cursorColor="red" />
           </h2>
-          <h3 className="text-xl py-2">Developer and designer.</h3>
+          <h3 className="text-xl py-2 md:text-2xl">Developer and designer.</h3>
           <p className="text-md py-5 leading-8 text-gray-500 max-w-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis
             neque, venenatis a volutpat et, ultrices.
