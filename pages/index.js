@@ -5,17 +5,17 @@ import { Design } from "@/components/Design";
 
 export default function Home() {
   return (
-    <div>
+    <div className="snap-y snap-proximity h-screen w-screen overflow-scroll">
       <Head>
         <title>Vathana Portfolio</title>
       </Head>
-      <section className="bg-primary-100 rounded-bl-[100px]">
+      <section className="snap-start bg-primary-100 rounded-bl-[100px] md:h-screen">
         <Header />
         {/* Header */}
         <Page />
         {/* Page */}
       </section>
-      <section>
+      <section className="snap-start h-screen">
         <Design />
       </section>
 
