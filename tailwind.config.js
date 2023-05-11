@@ -20,6 +20,10 @@ module.exports = {
       fontFamily: {
         lekton: ["Lekton"],
       },
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        G: "repeat(auto-fit, minmax(200px, 1fr))",
+      },
     },
   },
   plugins: [],
