@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Vathana Portfolio</title>
       </Head>
-      <section className="snap-start bg-primary-100 rounded-bl-[100px] md:h-screen">
+      <section className="snap-start bg-primary-100 rounded-bl-[100px] md:h-auto">
         <Header />
         {/* Header */}
         <Page />
