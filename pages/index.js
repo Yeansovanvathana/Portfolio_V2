@@ -37,33 +37,37 @@ export default function Home() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <div className="mx-auto md:h-full">
-        {isDesktop && (
-          <DotGroup
-            selectedPage={selectedPage}
-            setSelectedPage={setSelectedPage}
-          />
-        )}
+      <section className="snap-start">
+        <div className="mx-auto md:h-full">
+          {isDesktop && (
+            <DotGroup
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+          )}
 
-        <motion.div
-          margin="0 0 -200px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("home")}
-        >
-          <Page />
-        </motion.div>
-      </div>
+          <motion.div
+            margin="0 0 -200px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("home")}
+          >
+            <Page />
+          </motion.div>
+        </div>
+      </section>
 
       <LineGradient />
-      <div className="mx-auto md:h-full">
-        <motion.div
-          margin="0 0 -200px 0"
-          amount="all"
-          onViewportEnter={() => setSelectedPage("skills")}
-        >
-          <Design />
-        </motion.div>
-      </div>
+      <section className="snap-start">
+        <div className="mx-auto md:h-full">
+          <motion.div
+            margin="0 0 -200px 0"
+            amount="all"
+            onViewportEnter={() => setSelectedPage("skills")}
+          >
+            <Design />
+          </motion.div>
+        </div>
+      </section>
       {/* <section className="snap-start placeholder:md:h-auto"> */}
       {/* <Header /> */}
       {/* Header */}
