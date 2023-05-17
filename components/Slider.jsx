@@ -44,7 +44,7 @@ export const Slider = () => {
       </LazyLoad>
       <LazyLoad className="hidden md:flex grid-item">
         <img
-          src="/Discount2.jpg"
+          src="/Poster2_vertical_v1.jpg"
           alt="img1"
           className="shadow-md shadow-black/5 dark:shadow-black/30"
         />
@@ -67,7 +67,7 @@ export const Slider = () => {
       </LazyLoad>
       <LazyLoad className="grid-item">
         <img
-          src="/Discount.jpg"
+          src="Discount2.jpg"
           alt="img1"
           className="shadow-md shadow-black/5 dark:shadow-black/30"
         />
