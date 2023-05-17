@@ -53,42 +53,35 @@ export const Slider = () => {
     <div className="grid grid-cols-2 gap-2 max-w-[33rem] justify-center md:grid-cols-3">
       <LazyLoad className="row-span-2 grid-item ">
         <img
-          src="CMC_promotion.jpg"
+          src="/Service2_Production.jpg"
           alt="img1"
           className="shadow-md shadow-black/5 dark:shadow-black/30"
         />
       </LazyLoad>
       <LazyLoad className="grid-item">
         <img
-          src="/recruitment_REVISE-1.jpg"
+          src="/work_flow_CMC_REVISE-1.jpg"
           alt="img1"
           className="shadow-md shadow-black/5 dark:shadow-black/30"
         />
       </LazyLoad>
       <LazyLoad className="grid-item">
         <img
-          src="/newYearHoliday_v1.jpg"
+          src="/Discount.jpg"
           alt="img1"
           className="shadow-md shadow-black/5 dark:shadow-black/30"
         />
       </LazyLoad>
       <LazyLoad className="col-span-2 grid-item">
         <img
-          src="/poster.jpg"
+          src="/dish_washer.jpg"
           alt="img1"
           className="shadow-md shadow-black/5 dark:shadow-black/30"
         />
       </LazyLoad>
-      <LazyLoad className="col-span-2 grid-item">
+      <LazyLoad className="col-span-2 md:col-span-3 grid-item">
         <img
-          src="/voucher_front_v3.jpg"
-          alt="img1"
-          className="shadow-md shadow-black/5 dark:shadow-black/30"
-        />
-      </LazyLoad>
-      <LazyLoad className="hidden md:flex grid-item">
-        <img
-          src="/Discount2.jpg"
+          src="/CMC_Wash_Comming_Soon.jpg"
           alt="img1"
           className="shadow-md shadow-black/5 dark:shadow-black/30"
         />

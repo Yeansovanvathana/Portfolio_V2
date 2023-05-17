@@ -2,6 +2,8 @@ import React from "react";
 import { Slider } from "./Slider";
 import { motion } from "framer-motion";
 import { AiOutlineStar, AiFillStar } from "react-icons/ai";
+import LazyLoad from "react-lazy-load";
+
 export const Design = () => {
   const StarStyles = `text-yellow-500`;
   return (
@@ -35,22 +37,20 @@ export const Design = () => {
             many of our work showcase here
           </motion.h3>
         </div>
-        <div className="p-10 flex justify-between">
-          <Slider />
-          <div className="">
+        <div className="p-10 md:flex justify-between gap-16">
+          <Slider />,
+          {/* <div className="bg-blue-200 w-max">
             <h3 className="text-2xl font-medium pb-2">Client Feedback</h3>
             <p className="text-xl text-gray-500">
               What Our Clients Say About Us...
-            </p>
-
-            <div className="flex gap-5 max-w-xl h-auto bg-red-100">
-              <div class="relative w-12 h-12">
+            </p> */}
+          {/* <div className="flex gap-5 bg-red-100  ">
+              <div className="w-14 h-14 rounded-full overflow-hidden bg-red-500">
                 <img
-                  class="rounded-full border border-gray-100 shadow-sm"
-                  src="/Vathana.jpg"
-                  alt="user image"
+                  src="/Discount2.jpg"
+                  alt="Image"
+                  className="object-cover w-full h-full"
                 />
-                <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div>
               </div>
               <div>
                 <h2>KimHoung</h2>
@@ -66,22 +66,8 @@ export const Design = () => {
                   quae, esse repudiandae
                 </p>
               </div>
-              <div>
-                <h2>KimHoung</h2>
-                <div className="flex">
-                  <AiFillStar className={`${StarStyles}`} />
-                  <AiFillStar className={`${StarStyles}`} />
-                  <AiFillStar className={`${StarStyles}`} />
-                  <AiFillStar className={`${StarStyles}`} />
-                  <AiOutlineStar className={`${StarStyles}`} />
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                  quae, esse repudiandae
-                </p>
-              </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </div>
     </section>
