@@ -14,7 +14,7 @@ export const Page = () => {
   });
   return (
     <section id="home" className="gap-16 md:h-full py-10">
-      <div className="lg:flex md:flex justify-between max-w-screen-xl mx-auto z-20 xl-items-center md:mt-24">
+      <div className="lg:flex md:flex justify-between max-w-screen-2xl mx-auto z-20 xl-items-center md:mt-24">
         <div className="p-10 text-center lg:text-start md:text-start">
           <motion.h2
             initial="hidden"
@@ -73,10 +73,13 @@ export const Page = () => {
           <div className="bg-primary-200 w-40 h-64 rounded-3xl relative lg:h-80 lg:w-48">
             <div className="w-40 h-64 rounded-3xl absolute overflow-hidden right-5 -top-5 lg:w-48 lg:h-80">
               <Image
-                src={Vathana}
+                src="/Vathana.jpg"
+                width={300}
+                height={300}
                 alt="Vathana"
-                layout="fill"
-                objectFit="cover"
+                placeholder="empty"
+                // layout="fill"
+                // objectFit="cover"
               />
             </div>
           </div>
