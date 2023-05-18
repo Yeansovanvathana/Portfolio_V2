@@ -6,9 +6,9 @@ export const Feedback = () => {
   const StarStyles = `text-yellow-500`;
 
   return (
-    <div className="bg-blue-200">
+    <div className="bg-blue-200 animate-pulse">
       <div>
-        <h3 className="text-2xl font-medium">Client Feedback</h3>
+        <h3 className="text-2xl font-medium ">Client Feedback</h3>
         <p className="text-xl text-gray-500 py-2">
           What Our Clients Say About Us...
         </p>
@@ -103,6 +103,7 @@ export const Feedback = () => {
           </div>
         </div>
       </div>
+      <span class="sr-only">Loading...</span>
     </div>
   );
 };

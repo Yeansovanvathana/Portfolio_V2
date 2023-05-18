@@ -21,6 +21,8 @@ export const Slider = () => {
       </LazyLoad>
       <LazyLoad className="grid-item">
         <Image
+          Import
+          Loader
           src="/recruitment_REVISE-1.jpg"
           width={300}
           height={300}

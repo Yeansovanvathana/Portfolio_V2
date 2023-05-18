@@ -47,13 +47,15 @@ img {
     display: inline-block;
     height: 20px;
     width: 20px;
-    border-radius: 50%;
+    border-radius: 15px;
     cursor: pointer;
-    margin: 15px 7px 0px;
+    margin: 15px 4px 0px;
     background-color: #c4c4c4;
+    transition: 0.5s;
   }
   
   .slideshowDot.active {
     /* background-color: #6a0dad; */
+    width: 45px;
     @apply bg-yellow-500
   }
