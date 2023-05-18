@@ -68,16 +68,6 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-      {/* <section className="snap-start placeholder:md:h-auto"> */}
-      {/* <Header /> */}
-      {/* Header */}
-      {/* <Page /> */}
-      {/* Page */}
-      {/* </section>
-      <div className="text-xl bg-secondary-100 w-full h-2"></div>
-      <section className="snap-start h-screen">
-        <Design />
-      </section> */}
 
       {/* About */}
 
