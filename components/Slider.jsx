@@ -1,6 +1,6 @@
 import React from "react";
-import LazyLoad from "react-lazy-load";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export const Slider = () => {
   const [index, setIndex] = React.useState(0);
@@ -194,16 +194,27 @@ export const Slider = () => {
               ></div>
             ))}
           </div>
-          <div
-            className="slideshowSlider"
-            style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 1 }}
+            variants={{
+              hidden: { opacity: 0, y: 50 },
+              visible: { opacity: 1, y: 0 },
+            }}
           >
-            {slide.map((slide, index) => (
-              <div className="slide" key={index}>
-                {slide}
-              </div>
-            ))}
-          </div>
+            <div
+              className="slideshowSlider"
+              style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+            >
+              {slide.map((slide, index) => (
+                <div className="slide" key={index}>
+                  {slide}
+                </div>
+              ))}
+            </div>
+          </motion.div>
         </>
       )}
     </div>
