@@ -1,8 +1,6 @@
 import React from "react";
 import { Slider } from "./Slider";
 import { motion } from "framer-motion";
-import LazyLoad from "react-lazy-load";
-import Image from "next/image";
 import { Feedback } from "./Feedback";
 
 export const Design = () => {

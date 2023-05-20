@@ -3,15 +3,14 @@ import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
   return (
     <AnchorLink
       className={`${
-        selectedPage === lowerCasePage ? "text-red-500" : ""
-      } hover:text-red-500 transition duration-500`}
+        selectedPage === lowerCasePage ? "text-secondary-200 font-bold" : ""
+      } hover:text-yellow-500 transition duration-500`}
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
     >
@@ -22,19 +21,18 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 
 export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
-  const isDesktop = useMediaQuery("(min-width: 768px)");
+  const isDesktop = useMediaQuery("(min-width: 1024px)");
   const navbarBackground = isTopOfPage ? "" : "bg-primary-200";
 
   return (
     <nav
-      className={`${navbarBackground} md:bg-primary-100 z-40 w-full fixed md:sticky top-0 py-5 `}
+      className={`${navbarBackground} lg:bg-primary-100 z-40 w-full fixed lg:sticky top-0 py-5 `}
     >
-      <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className="font-playfair uppercase text-xl text-gray-600">
+      <div className="flex items-center justify-between mx-auto max-w-screen-2xl px-4 md:px-10">
+        <h4 className="font-playfair uppercase text-xl font-bold cursor-pointer">
           VATHANA
         </h4>
 
-        {/* DESKTOP NAV */}
         {isDesktop ? (
           <div className="flex justify-between gap-16 text-sm font-semibold">
             <Link
@@ -75,7 +73,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
         {/* MOBILE MENU POPUP */}
         {!isDesktop && isMenuToggled && (
-          <motion.div className="fixed right-0 bottom-0 z-50 h-full w-full bg-blue-100">
+          <div className="fixed right-0 bottom-0 z-50 h-full w-full bg-primary-200">
             {/* CLOSE ICON */}
             <div className="flex justify-between p-10">
               <h4 className="font-playfair text-xl font-bold text-gray-700">
@@ -91,7 +89,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
             {/* MENU ITEMS */}
             <div
-              className="flex flex-col justify-center items-center mt-[10%] gap-10 text-2xl text-deep-blue"
+              className="flex flex-col justify-center items-center mt-[12%] gap-10 text-2xl"
               onClick={() => setIsMenuToggled(!isMenuToggled)}
             >
               <Link
@@ -120,7 +118,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
               />
             </div>
-          </motion.div>
+          </div>
         )}
       </div>
     </nav>
