@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { useState, useEffect } from "react";
-import { Header } from "@/components/Header";
 import { Page } from "@/components/Page";
 import { Design } from "@/components/Design";
 import { Navbar } from "@/components/Navbar";
@@ -37,37 +36,35 @@ export default function Home() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <section className="">
-        <div className="">
-          {isDesktop && (
-            <DotGroup
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
-          )}
 
-          <motion.div
-            margin="0 0 -200px 0"
-            amount="all"
-            onViewportEnter={() => setSelectedPage("home")}
-          >
-            <Page />
-          </motion.div>
-        </div>
-      </section>
+      <div className="mx-auto md:h-full">
+        {isDesktop && (
+          <DotGroup
+            selectedPage={selectedPage}
+            setSelectedPage={setSelectedPage}
+          />
+        )}
+
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("home")}
+        >
+          <Page />
+        </motion.div>
+      </div>
 
       {/* <LineGradient /> */}
-      <section className="">
-        <div className="">
-          <motion.div
-            margin="0 0 -200px 0"
-            amount="all"
-            onViewportEnter={() => setSelectedPage("skills")}
-          >
-            <Design />
-          </motion.div>
-        </div>
-      </section>
+
+      <div className="mx-auto md:h-full">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("skills")}
+        >
+          <Design />
+        </motion.div>
+      </div>
 
       {/* About */}
 

@@ -159,18 +159,18 @@ export const Slider = () => {
         <div className="loading">
           <div className="pb-5 w-4 h-4 text-center"></div>
           <div className="slideshowSlider">
-            <div className="grid grid-cols-2 gap-2 max-w-[33rem] justify-center md:grid-cols-3 animate-pulse border-red-500">
+            <div className="grid grid-cols-2 gap-2 w-[36rem] justify-center md:grid-cols-3 animate-pulse border-red-500">
               <div className="row-span-2 grid-item">
-                <div className="w-32 h-[330px] bg-gray-200 dark:bg-gray-700"></div>
+                <div className="w-42 h-[330px] bg-gray-200 dark:bg-gray-700"></div>
               </div>
               <div className="grid-item">
-                <div className="bg-gray-200 dark:bg-gray-700 w-32 h-32"></div>
+                <div className="bg-gray-200 dark:bg-gray-700  h-32"></div>
               </div>
               <div className="grid-item">
                 <div className="bg-gray-200 dark:bg-gray-700 w-32 h-32"></div>
               </div>
               <div className="col-span-2 grid-item">
-                <div className="bg-gray-200 dark:bg-gray-700 h-32"></div>
+                <div className="bg-gray-200 dark:bg-gray-700 h-[195px]"></div>
               </div>
               <div className="col-span-2 grid-item">
                 <div className="bg-gray-200 dark:bg-gray-700  h-32"></div>
