@@ -27,7 +27,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="snap-y snap-proximity h-full w-screen overflow-scroll bg-primary-100 ">
+    <div className="h-full w-screen overflow-scroll bg-primary-100 ">
       <Head>
         <title>Vathana Portfolio</title>
       </Head>
@@ -37,8 +37,8 @@ export default function Home() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <section className="snap-start">
-        <div className="mx-auto md:h-full">
+      <section className="">
+        <div className="">
           {isDesktop && (
             <DotGroup
               selectedPage={selectedPage}
@@ -56,9 +56,9 @@ export default function Home() {
         </div>
       </section>
 
-      <LineGradient />
-      <section className="snap-start">
-        <div className="mx-auto md:h-full">
+      {/* <LineGradient /> */}
+      <section className="">
+        <div className="">
           <motion.div
             margin="0 0 -200px 0"
             amount="all"

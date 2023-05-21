@@ -10,7 +10,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
     <AnchorLink
       className={`${
         selectedPage === lowerCasePage ? "text-secondary-200 font-bold" : ""
-      } hover:text-yellow-500 transition duration-500`}
+      } hover:text-secondary-200 font-bold transition duration-500`}
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
     >
@@ -22,19 +22,19 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isDesktop = useMediaQuery("(min-width: 1024px)");
-  const navbarBackground = isTopOfPage ? "" : "bg-primary-200";
+  const navbarBackground = isTopOfPage
+    ? ""
+    : "bg-primary-200 opacity-95 border-b-[1px] border-gray-400 border-opacity-30";
 
   return (
-    <nav
-      className={`${navbarBackground} lg:bg-primary-100 z-40 w-full fixed lg:sticky top-0 py-5 `}
-    >
-      <div className="flex items-center justify-between mx-auto max-w-screen-2xl px-4 md:px-10">
+    <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-5 `}>
+      <div className="flex items-center justify-between mx-auto max-w-screen-2xl px-4 md:px-10 ">
         <h4 className="font-playfair uppercase text-xl font-bold cursor-pointer">
           VATHANA
         </h4>
 
         {isDesktop ? (
-          <div className="flex justify-between gap-16 text-sm font-semibold">
+          <div className="flex justify-between gap-16 text-sm font-semibold text-gray-600">
             <Link
               page="Home"
               selectedPage={selectedPage}

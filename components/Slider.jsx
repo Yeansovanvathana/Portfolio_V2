@@ -8,7 +8,7 @@ export const Slider = () => {
   const timeoutRef = React.useRef(null);
   const delay = 4500;
   const slide = [
-    <div className="grid grid-cols-2 gap-2 max-w-[33rem] justify-center md:grid-cols-3">
+    <div className="grid grid-cols-2 gap-2  justify-center md:grid-cols-3">
       <div className="row-span-2 grid-item w-full">
         {/* <img /> */}
         <Image
@@ -73,7 +73,7 @@ export const Slider = () => {
         />
       </div>
     </div>,
-    <div className="grid grid-cols-2 gap-2 max-w-[33rem] justify-center md:grid-cols-3">
+    <div className="grid grid-cols-2 gap-2 justify-center md:grid-cols-3">
       <div className="row-span-2 grid-item ">
         <Image
           src="/Service2_Production.jpg"

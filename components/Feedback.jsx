@@ -7,7 +7,7 @@ export const Feedback = () => {
   const StarStyles = `text-yellow-500`;
 
   return (
-    <div className="z-30 max-w-[35rem] mt-6 lg:-mt-12">
+    <div className="z-30 mt-6 lg:-mt-4">
       <motion.div
         className="pb-4"
         initial="hidden"
@@ -36,9 +36,9 @@ export const Feedback = () => {
           hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
-        className="flex flex-col lg:flex-row bg-primary-200 rounded-lg shadow justify-center items-center m-auto py-2 my-4 px-4"
+        className="flex flex-col lg:flex-row bg-primary-200 rounded-lg shadow justify-center items-center m-auto py-2 my-4 px-4 "
       >
-        <div className="w-14 h-14  relative">
+        <div className="w-14 h-14 relative">
           <Image
             src="/kimhoung.jpg"
             width={300}
@@ -49,7 +49,7 @@ export const Feedback = () => {
           <div class="absolute animate-ping  top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div>
           <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div>
         </div>
-        <div className="lg:px-10 py-2 ">
+        <div className="lg:px-5 py-2 ">
           <h2 className="text-center lg:text-start">KimHoung</h2>
           <div className="flex justify-center lg:justify-start">
             <AiFillStar className={`${StarStyles}`} />
@@ -66,19 +66,19 @@ export const Feedback = () => {
         </div>
         <div>
           <div className="py-1">
-            <h2 className="text-center lg:text-start py-1">Quality</h2>
+            <h2 className="text-center lg:text-start py-1 text-sm">Quality</h2>
             <div className="w-full h-2.5 bg-secondary-100 rounded-lg">
               <div className="w-4/5 h-full bg-green-600 rounded-lg transition-all duration-500 hover:w-full"></div>
             </div>
           </div>
           <div className="py-1">
-            <h2 className="py-1">Communication</h2>
+            <h2 className="py-1 text-sm lg:text-start">Communication</h2>
             <div className="w-full h-2.5 bg-secondary-100 rounded-lg">
               <div className="w-[90%] h-full bg-green-600 rounded-lg transition-all duration-500 hover:w-full"></div>
             </div>
           </div>
           <div className="py-1">
-            <h2 className="py-1">Target Audience</h2>
+            <h2 className="py-1 text-sm lg:text-start">Target Audience</h2>
             <div className="w-full h-2.5 bg-secondary-100 rounded-lg">
               <div className="w-4/5 h-full bg-green-600 rounded-lg transition-all duration-500 hover:w-full"></div>
             </div>
@@ -108,7 +108,7 @@ export const Feedback = () => {
           <div class="absolute animate-ping  top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div>
           <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div>
         </div>
-        <div className="lg:px-10 py-2 ">
+        <div className="lg:px-5 py-2 ">
           <h2 className="text-center lg:text-start">SoPheak</h2>
           <div className="flex justify-center lg:justify-start">
             <AiFillStar className={`${StarStyles}`} />
@@ -124,19 +124,19 @@ export const Feedback = () => {
         </div>
         <div>
           <div className="py-1">
-            <h2 className="text-center lg:text-start py-1">Quality</h2>
+            <h2 className="text-center lg:text-start py-1 text-sm">Quality</h2>
             <div className="w-full h-2.5 bg-secondary-100 rounded-lg">
               <div className="w-[95%] h-full bg-green-600 rounded-lg transition-all duration-500 hover:w-full"></div>
             </div>
           </div>
           <div className="py-1">
-            <h2 className="py-1">Communication</h2>
+            <h2 className="py-1 text-sm">Communication</h2>
             <div className="w-full h-2.5 bg-secondary-100 rounded-lg">
               <div className="w-[90%] h-full bg-green-600 rounded-lg transition-all duration-500 hover:w-full"></div>
             </div>
           </div>
           <div className="py-1">
-            <h2 className="py-1">Target Audience</h2>
+            <h2 className="py-1 text-sm">Target Audience</h2>
             <div className="w-full h-2.5 bg-secondary-100 rounded-lg">
               <div className="w-4/5 h-full bg-green-600 rounded-lg transition-all duration-500 hover:w-full"></div>
             </div>
@@ -167,7 +167,7 @@ export const Feedback = () => {
           <div class="absolute animate-ping  top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div>
           <div class="absolute top-0 right-0 h-3 w-3 my-1 border-2 border-white rounded-full bg-green-400 z-2"></div>
         </div>
-        <div className="lg:px-10 py-2 ">
+        <div className="lg:px-5 py-2 ">
           <h2 className="text-center lg:text-start">SreyToch</h2>
           <div className="flex justify-center lg:justify-start">
             <AiFillStar className={`${StarStyles}`} />
@@ -183,19 +183,19 @@ export const Feedback = () => {
         </div>
         <div>
           <div className="py-1">
-            <h2 className="py-1 text-center lg:text-start">Quality</h2>
+            <h2 className="py-1 text-center lg:text-start text-sm">Quality</h2>
             <div className="w-full h-2.5 bg-secondary-100 rounded-lg">
               <div className="w-[90%] h-full bg-green-600 rounded-lg transition-all duration-500 hover:w-full"></div>
             </div>
           </div>
           <div className="py-1">
-            <h2 className="py-1">Communication</h2>
+            <h2 className="py-1 text-sm">Communication</h2>
             <div className="w-full h-2.5 bg-secondary-100 rounded-lg">
               <div className="w-[90%] h-full bg-green-600 rounded-lg transition-all duration-500 hover:w-full"></div>
             </div>
           </div>
           <div className="py-1">
-            <h2 className="py-1">Target Audience</h2>
+            <h2 className="py-1 text-sm">Target Audience</h2>
             <div className="w-full h-2.5 bg-secondary-100 rounded-lg">
               <div className="w-4/5 h-full bg-green-600 rounded-lg transition-all duration-500 hover:w-full"></div>
             </div>

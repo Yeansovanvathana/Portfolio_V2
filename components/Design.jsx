@@ -5,11 +5,14 @@ import { Feedback } from "./Feedback";
 
 export const Design = () => {
   return (
-    <section id="skills" className="md:h-full ">
-      <div className="max-w-screen-2xl mx-auto">
-        <div className="p-5 px-10 md:text-start text-center">
+    <section
+      id="skills"
+      className="lg:h-screen md:h-screen flex lg:items-center lg:justify-center"
+    >
+      <div className="w-[1280px] mx-auto">
+        <div className="p-5 px-10 md:text-start text-center ">
           <motion.h2
-            className="text-2xl font-medium py-2"
+            className="text-3xl font-medium py-2"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
@@ -35,7 +38,7 @@ export const Design = () => {
             many of our work showcase here
           </motion.h3>
         </div>
-        <div className="p-10 flex justify-center items-center flex-col lg:flex-row lg:justify-between gap-5">
+        <div className=" max-w-screen-xl p-10 flex justify-center items-center flex-col lg:flex-row lg:justify-between gap-5 ">
           <Slider />
           <Feedback />
         </div>
