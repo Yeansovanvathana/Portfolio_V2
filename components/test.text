@@ -1,0 +1,35 @@
+{!isDesktop && isMenuToggled && (
+          <div className="fixed right-0 top-[70px] bottom-0 z-50 h-full w-full bg-primary-100 border-t-[1px] border-gray-400 border-opacity-30">
+            {/* MENU ITEMS */}
+            <div
+              className="flex flex-col justify-center items-center mt-[12%] gap-10 text-2xl"
+              onClick={() => setIsMenuToggled(!isMenuToggled)}
+            >
+              <Link
+                page="Home"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+              <Link
+                page="Skills"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+              <Link
+                page="Projects"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+              <Link
+                page="Testimonials"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+              <Link
+                page="Contact"
+                selectedPage={selectedPage}
+                setSelectedPage={setSelectedPage}
+              />
+            </div>
+          </div>
+        )}

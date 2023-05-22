@@ -54,8 +54,6 @@ export default function Home() {
         </motion.div>
       </div>
 
-      <div></div>
-
       {/* <LineGradient /> */}
 
       <div className="">

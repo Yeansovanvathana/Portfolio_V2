@@ -21,6 +21,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 
 export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
   const isDesktop = useMediaQuery("(min-width: 1024px)");
   const navbarBackground = isTopOfPage
     ? ""
@@ -77,20 +78,14 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               </button>
               {selectedPage === "Skills" && (
                 <div className="absolute left-[-20px] mt-2 py-2 w-40 bg-primary-200 rounded-md shadow-lg">
-                  <div
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-primary-100"
-                  >
+                  <div className="block px-4 py-2 text-sm text-gray-600 hover:bg-primary-100">
                     <Link
                       page="Design"
                       selectedPage={selectedPage}
                       setSelectedPage={setSelectedPage}
                     />
                   </div>
-                  <div
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-primary-100"
-                  >
+                  <div className="block px-4 py-2 text-sm text-gray-600 hover:bg-primary-100">
                     <Link
                       page="Testimonials"
                       selectedPage={selectedPage}
@@ -118,53 +113,57 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             />
           </div>
         ) : (
-          <button
-            className={`text-gray-600 transition duration-500 ${
-              isMenuToggled ? "rotate-90" : ""
-            }`}
-            onClick={() => setIsMenuToggled(!isMenuToggled)}
-          >
-            {/* <img alt="menu-icon" src="../assets/menu-icon.svg" /> */}
-            {isMenuToggled ? <FaTimes size={30} /> : <FaBars size={30} />}
-          </button>
-        )}
-
-        {/* MOBILE MENU POPUP */}
-        {!isDesktop && isMenuToggled && (
-          <div className="fixed right-0 top-[70px] bottom-0 z-50 h-full w-full bg-primary-100 border-t-[1px] border-gray-400 border-opacity-30">
-            {/* MENU ITEMS */}
-            <div
-              className="flex flex-col justify-center items-center mt-[12%] gap-10 text-2xl"
+          <div>
+            <button
+              className={`text-gray-600 transition duration-500 ${
+                isMenuToggled ? "rotate-90" : ""
+              }`}
               onClick={() => setIsMenuToggled(!isMenuToggled)}
             >
-              <Link
-                page="Home"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-              <Link
-                page="Skills"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-              <Link
-                page="Projects"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-              <Link
-                page="Testimonials"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-              <Link
-                page="Contact"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
-            </div>
+              {isMenuToggled ? <FaTimes size={30} /> : <FaBars size={30} />}
+            </button>
           </div>
         )}
+        <div
+          className={`absolute top-[75px] right-0 w-full bg-primary-100 m-0 overflow-hidden transition-height duration-500 ease-in-out ${
+            !isDesktop && isMenuToggled
+              ? "h-screen w-screen overflow-auto border-t-[1px] border-gray-400 border-opacity-30"
+              : "h-0"
+          }`}
+        >
+          <div
+            className="flex flex-col justify-center h-screen items-center gap-10 text-2xl -mt-20"
+            onClick={() => setIsMenuToggled(!isMenuToggled)}
+          >
+            <Link
+              page="Home"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Design"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Projects"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Testimonials"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
+              page="Contact"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+          </div>
+        </div>
+
+        {/* MOBILE MENU POPUP */}
       </div>
     </nav>
   );
