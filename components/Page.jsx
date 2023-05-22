@@ -12,10 +12,7 @@ export const Page = () => {
     typeSpeed: 200,
   });
   return (
-    <section
-      id="home"
-      className="gap-16 py-10 mt-10 md:mt-0 lg:h-screen md:h-screen"
-    >
+    <section id="home" className="gap-16 py-10 mt-10 md:mt-0 lg:h-screen">
       <div className="flex-col justify-center items-center md:py-5 md:pt-5">
         <div className="lg:flex md:flex justify-between max-w-screen-xl mx-auto z-20 xl-items-center md:mt-24 py-10">
           <div className="p-10 text-center lg:text-start md:text-start">

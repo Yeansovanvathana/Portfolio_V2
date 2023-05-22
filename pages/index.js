@@ -37,7 +37,7 @@ export default function Home() {
         setSelectedPage={setSelectedPage}
       />
 
-      <div className="mx-auto md:h-full">
+      <div className="">
         {isDesktop && (
           <DotGroup
             selectedPage={selectedPage}
@@ -54,9 +54,11 @@ export default function Home() {
         </motion.div>
       </div>
 
+      <div></div>
+
       {/* <LineGradient /> */}
 
-      <div className="mx-auto md:h-full">
+      <div className="">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"

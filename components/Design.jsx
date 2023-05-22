@@ -6,8 +6,8 @@ import { Feedback } from "./Feedback";
 export const Design = () => {
   return (
     <section
-      id="skills"
-      className="lg:h-screen md:h-screen flex lg:items-center lg:justify-center"
+      id="design"
+      className="lg:h-screen flex lg:items-center lg:justify-center"
     >
       <div className="w-[1280px] mx-auto">
         <div className="p-5 px-10 md:text-start text-center ">
