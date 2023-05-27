@@ -7,6 +7,7 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import DotGroup from "@/components/DotGroup";
 import LineGradient from "@/components/LineGradient";
+import { Skillset } from "@/components/Skillset";
 
 export default function Home() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -55,6 +56,15 @@ export default function Home() {
       </div>
 
       {/* <LineGradient /> */}
+      <div className="">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("projects")}
+        >
+          <Skillset />
+        </motion.div>
+      </div>
 
       <div className="">
         <motion.div

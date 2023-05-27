@@ -60,3 +60,8 @@ img {
   @apply bg-yellow-500
 }
 
+@layer components {
+  .Card {
+    @apply w-36 text-2xl  bg-primary-200 border-spacing-1 shadow p-3 drop-shadow-md font-medium;
+  }
+}

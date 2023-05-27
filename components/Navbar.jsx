@@ -46,6 +46,11 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             /> */}
+            <Link
+              page="Projects"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
             <div className="relative">
               <button
                 type="button"
@@ -96,11 +101,6 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               )}
             </div>
 
-            <Link
-              page="Projects"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
             <Link
               page="Testimonials"
               selectedPage={selectedPage}
