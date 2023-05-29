@@ -156,7 +156,7 @@ export const Slider = () => {
   return (
     <div className="slideshow max-w-md">
       {isLoading ? (
-        <div className="loading">
+        <div className="hidden md:flex loading">
           <div className="pb-5 w-4 h-4 text-center"></div>
           <div className="slideshowSlider">
             <div className="grid grid-cols-2 gap-2 w-[36rem] justify-center md:grid-cols-3 animate-pulse border-red-500">

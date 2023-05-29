@@ -40,10 +40,10 @@ export const Skillset = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
-              transition={{ delay: 0.4, duration: 0.5 }}
+              transition={{ duration: 1 }}
               variants={{
-                hidden: { opacity: 0, x: 50 },
-                visible: { opacity: 1, x: 0 },
+                hidden: { opacity: 0, y: 50 },
+                visible: { opacity: 1, y: 0 },
               }}
               className="flex justify-center"
             >
@@ -55,35 +55,77 @@ export const Skillset = () => {
           <div className="flex gap-4 justify-center items-center ">
             <div className="space-y-4">
               <div className="Card md:w-60">
+                <img
+                  src="/Icons/python-svgrepo-com.svg"
+                  alt=""
+                  className="Button"
+                />
                 <p className="text-sm md:text-xl">Python</p>
               </div>
               <div className="Card md:w-60">
+                <img src="/Icons/java-icon.svg" className="Button" alt="" />
                 <p className="text-sm md:text-xl">Java</p>
               </div>
               <div className="Card md:w-60">
+                <img src="/Icons/js.png" className="Button" alt="" />
                 <p className="text-sm md:text-xl">JavaScript</p>
               </div>
               <div className="Card md:w-60">
+                <img
+                  src="/Icons/node-js-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">Node js</p>
               </div>
               <div className="Card md:w-60">
+                <img
+                  src="/Icons/nest-middleware-js-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">Nest Js</p>
               </div>
             </div>
             <div className="space-y-4">
               <div className="Card md:w-60">
+                <img
+                  src="/Icons/react-javascript-js-framework-facebook-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">React js</p>
               </div>
               <div className="Card md:w-60">
+                <img
+                  src="/Icons/vue-vuejs-javascript-js-framework-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">Vue js</p>
               </div>
               <div className="Card md:w-60">
+                <img
+                  src="/Icons/flutter-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">Flutter</p>
               </div>
               <div className="Card md:w-60">
+                <img
+                  src="/Icons/unity-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">Unity</p>
               </div>
               <div className="Card md:w-60 invisible">
+                <img
+                  src="/Icons/unity-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">Flutter</p>
               </div>
             </div>
@@ -123,10 +165,10 @@ export const Skillset = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
-              transition={{ delay: 0.4, duration: 0.5 }}
+              transition={{ duration: 1 }}
               variants={{
-                hidden: { opacity: 0, x: 50 },
-                visible: { opacity: 1, x: 0 },
+                hidden: { opacity: 0, y: 50 },
+                visible: { opacity: 1, y: 0 },
               }}
               className="flex justify-center"
             >
@@ -137,24 +179,54 @@ export const Skillset = () => {
           </div>
           <div className="flex gap-4 justify-center items-center">
             <div className="space-y-4">
-              <div className="Card md:w-60">
-                <p className="text-sm md:text-xl">Adobe Photoshop</p>
+              <div className="Card2 md:w-60">
+                <img
+                  src="/Icons/photoshop-cc-logo-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
+                <p className="text-[11px] md:text-xl">Adobe Photoshop</p>
               </div>
-              <div className="Card md:w-60">
-                <p className="text-sm md:text-xl">Adobe Illustrator</p>
+              <div className="Card2 md:w-60">
+                <img
+                  src="/Icons/illustrator-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
+                <p className="text-[11px] md:text-xl">Adobe Illustrator</p>
               </div>
-              <div className="Card md:w-60">
+              <div className="Card2 md:w-60">
+                <img
+                  src="/Icons/adobe-xd-1-logo-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">Adobe Xd</p>
               </div>
             </div>
             <div className="space-y-4">
-              <div className="Card md:w-60">
-                <p className="text-sm md:text-xl">Adobe Lightroom</p>
+              <div className="Card2 md:w-60">
+                <img
+                  src="/Icons/adobe-lightroom-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
+                <p className="text-[11px] md:text-xl">Adobe Lightroom</p>
               </div>
-              <div className="Card md:w-60">
+              <div className="Card2 md:w-60">
+                <img
+                  src="/Icons/figma-svgrepo-com.svg"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">Figma</p>
               </div>
-              <div className="Card md:w-60">
+              <div className="Card2 md:w-60">
+                <img
+                  src="/Icons/Canva_icon_2021.svg.png"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">Canva</p>
               </div>
             </div>

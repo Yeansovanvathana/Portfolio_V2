@@ -62,6 +62,12 @@ img {
 
 @layer components {
   .Card {
-    @apply w-36 text-2xl  bg-primary-200 border-spacing-1 shadow p-3 drop-shadow-md font-medium;
+    @apply w-36 bg-primary-200 border-spacing-1 shadow p-3 drop-shadow-md font-medium flex items-center gap-3;
+  }
+  .Card2 {
+    @apply w-40 bg-primary-200 border-spacing-1 shadow p-3 drop-shadow-md font-medium flex items-center gap-3;
+  }
+  .Button {
+    @apply w-6 h-6
   }
 }
