@@ -38,7 +38,7 @@ export default function Home() {
         setSelectedPage={setSelectedPage}
       />
 
-      <div className="">
+      <div className="w-screen">
         {isDesktop && (
           <DotGroup
             selectedPage={selectedPage}

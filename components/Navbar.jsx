@@ -140,15 +140,21 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
+              page="Skills"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            <Link
               page="Design"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Projects"
+              page="Experience"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
+
             <Link
               page="Testimonials"
               selectedPage={selectedPage}

@@ -7,9 +7,9 @@ export const Design = () => {
   return (
     <section
       id="design"
-      className="lg:h-screen flex lg:items-center lg:justify-center"
+      className="lg:h-screen flex lg:items-center lg:justify-center "
     >
-      <div className="w-[1280px] mx-auto">
+      <div className="w-[1280px] mx-auto mt-20 lg:mt-0">
         <div className="p-5 px-10 md:text-start text-center ">
           <motion.h2
             className="text-3xl font-medium py-2"
