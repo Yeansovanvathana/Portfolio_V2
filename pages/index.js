@@ -6,8 +6,8 @@ import { Navbar } from "@/components/Navbar";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import DotGroup from "@/components/DotGroup";
-import LineGradient from "@/components/LineGradient";
 import { Skillset } from "@/components/Skillset";
+import { Project } from "@/components/Project";
 
 export default function Home() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -60,7 +60,7 @@ export default function Home() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("projects")}
+          onViewportEnter={() => setSelectedPage("skills")}
         >
           <Skillset />
         </motion.div>
@@ -70,17 +70,25 @@ export default function Home() {
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
-          onViewportEnter={() => setSelectedPage("skills")}
+          onViewportEnter={() => setSelectedPage("design")}
         >
           <Design />
+        </motion.div>
+      </div>
+
+      <div className="">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("experience")}
+        >
+          <Project />
         </motion.div>
       </div>
 
       {/* About */}
 
       {/* Experience */}
-
-      {/* Skill */}
 
       {/* Project */}
 

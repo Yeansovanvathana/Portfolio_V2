@@ -21,7 +21,6 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 
 export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
-  const [showDropdown, setShowDropdown] = useState(false);
   const isDesktop = useMediaQuery("(min-width: 1024px)");
   const navbarBackground = isTopOfPage
     ? ""
@@ -47,7 +46,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               setSelectedPage={setSelectedPage}
             /> */}
             <Link
-              page="Projects"
+              page="Skills"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
@@ -60,13 +59,13 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                     : ""
                 } flex items-center focus:outline-none`}
                 onClick={() =>
-                  setSelectedPage(selectedPage === "Skills" ? "" : "Skills")
+                  setSelectedPage(selectedPage === "Design" ? "" : "Design")
                 }
               >
-                Skills
+                Projects
                 <svg
                   className={`${
-                    selectedPage === "Skills" ? "text-secondary-200" : ""
+                    selectedPage === "Design" ? "text-secondary-200" : ""
                   } ml-2 h-5 w-5 transition duration-500`}
                   fill="none"
                   stroke="currentColor"
@@ -81,7 +80,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                   />
                 </svg>
               </button>
-              {selectedPage === "Skills" && (
+              {selectedPage === "Design" && (
                 <div className="absolute left-[-20px] mt-2 py-2 w-40 bg-primary-200 rounded-md shadow-lg">
                   <div className="block px-4 py-2 text-sm text-gray-600 hover:bg-primary-100">
                     <Link
@@ -92,7 +91,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                   </div>
                   <div className="block px-4 py-2 text-sm text-gray-600 hover:bg-primary-100">
                     <Link
-                      page="Testimonials"
+                      page="experience"
                       selectedPage={selectedPage}
                       setSelectedPage={setSelectedPage}
                     />

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export const Skillset = () => {
   return (
     <section
-      id="projects"
+      id="skills"
       className="lg:h-screen flex lg:items-center lg:justify-center pt-10 lg:pt-0"
     >
       <div className="w-[1280px] mx-auto">
