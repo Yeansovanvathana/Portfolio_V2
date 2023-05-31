@@ -26,10 +26,17 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
     ? ""
     : "bg-primary-100 opacity-95 border-b-[1px] border-gray-400 border-opacity-30";
 
+  const handleClick = () => {
+    setSelectedPage("home");
+  };
+
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-5 `}>
       <div className="flex items-center justify-between mx-auto max-w-screen-2xl px-4 md:px-10 ">
-        <h4 className="font-playfair uppercase text-xl font-bold cursor-pointer">
+        <h4
+          className="font-playfair uppercase text-xl font-bold cursor-pointer"
+          onClick={handleClick}
+        >
           VATHANA
         </h4>
 
@@ -54,7 +61,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               <button
                 type="button"
                 className={`${
-                  selectedPage === "Design"
+                  selectedPage === "design" || selectedPage === "experience"
                     ? "text-secondary-200 font-bold"
                     : ""
                 } flex items-center focus:outline-none`}
@@ -64,9 +71,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               >
                 Projects
                 <svg
-                  className={`${
-                    selectedPage === "Design" ? "text-secondary-200" : ""
-                  } ml-2 h-5 w-5 transition duration-500`}
+                  className={` ml-2 h-5 w-5 transition duration-500`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
