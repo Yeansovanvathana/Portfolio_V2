@@ -65,17 +65,21 @@ export const Project = () => {
               <AnimatePresence>
                 {activeDropdown === data.id && (
                   <motion.div
-                    className="w-full bg-primary-100 overflow-hidden"
+                    className="w-full bg-primary-200 overflow-hidden rounded-lg shadow"
                     initial={{ height: 0 }}
                     animate={{ height: "auto" }}
                     exit={{ height: 0, transition: { duration: 0.5 } }}
                     transition={{ duration: 0.5, when: "beforeChildren" }}
                   >
-                    <p>Hiii</p>
-                    <p>Hiii</p>
-                    <p>Hiii</p>
-                    <p>Hiii</p>
-                    <p>Hiii</p>
+                    <div className="p-6">
+                      <div className="flex items-center space-x-3">
+                        <h3 className="text-xl">Position :</h3>
+                        <span className="font-medium text-xl">
+                          {data.position}
+                        </span>
+                      </div>
+                      <div>po</div>
+                    </div>
                   </motion.div>
                 )}
               </AnimatePresence>
