@@ -71,14 +71,19 @@ export const Project = () => {
                     exit={{ height: 0, transition: { duration: 0.5 } }}
                     transition={{ duration: 0.5, when: "beforeChildren" }}
                   >
-                    <div className="p-6">
+                    <div className="p-6 flex flex-col justify-center items-center text-xl lg:justify-between">
                       <div className="flex items-center space-x-3">
-                        <h3 className="text-xl">Position :</h3>
-                        <span className="font-medium text-xl">
-                          {data.position}
-                        </span>
+                        <h3 className="font-extralight">Position :</h3>
+                        <span className="font-extralight">{data.position}</span>
                       </div>
-                      <div>po</div>
+                      <div>
+                        <h3 className="text-center font-lekton">Demo</h3>
+                        <img
+                          src={data.demo}
+                          alt=""
+                          className="mx-auto lg:w-2/4"
+                        />
+                      </div>
                     </div>
                   </motion.div>
                 )}

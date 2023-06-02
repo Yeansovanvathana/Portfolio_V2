@@ -28,7 +28,7 @@ export const Page = () => {
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
               }}
-              className="text-3xl py-2 font-medium lg:text-4xl"
+              className="text-3xl py-2 font-medium font-lekton lg:text-5xl"
             >
               {/* I'm <span className=" text-green-600">Yean</span> Sovanvathana */}
               {text}
