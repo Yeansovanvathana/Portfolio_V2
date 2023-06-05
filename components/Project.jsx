@@ -38,7 +38,7 @@ export const Project = () => {
           {Exp.map((data, idx) => (
             <div
               key={idx}
-              className="md:w-2/3  bg-primary-200 rounded-lg shadow h-auto relative"
+              className="md:w-[80%]  bg-primary-200 rounded-lg shadow h-auto relative"
             >
               <div className="p-6 space-y-3">
                 <div className="flex items-center space-x-3">
@@ -65,24 +65,59 @@ export const Project = () => {
               <AnimatePresence>
                 {activeDropdown === data.id && (
                   <motion.div
-                    className="w-full bg-primary-200 overflow-hidden rounded-lg shadow"
+                    className=" bg-primary-200 overflow-hidden rounded-lg shadow"
                     initial={{ height: 0 }}
                     animate={{ height: "auto" }}
                     exit={{ height: 0, transition: { duration: 0.5 } }}
                     transition={{ duration: 0.5, when: "beforeChildren" }}
                   >
-                    <div className="p-6 flex flex-col justify-center items-center text-xl lg:justify-between">
-                      <div className="flex items-center space-x-3">
-                        <h3 className="font-extralight">Position :</h3>
-                        <span className="font-extralight">{data.position}</span>
+                    <div className="p-6 font-light text-sm md:text-base lg:text-lg flex flex-col  items-center space-y-2">
+                      <h3 className="font-semibold md:text-xl p-2">Project</h3>
+
+                      <h3 className="font-normal">
+                        Position :{" "}
+                        <span className="font-light">{data.position}</span>
+                      </h3>
+                      <h3 className="font-normal">
+                        Project Type :{" "}
+                        <span className="font-light">{data.Company}</span>
+                      </h3>
+
+                      <h3 className="font-semibold md:text-xl p-2">
+                        {data.project_id}
+                      </h3>
+                      <ul className="space-y-2">
+                        {data.work_exp.map((expLine, index) => (
+                          <li key={index}>{expLine}</li>
+                        ))}
+                      </ul>
+                      <h3 className="font-semibold md:text-xl p-2">Tools</h3>
+                      <div className="grid grid-cols-2 grid-flow-row md:grid-cols-3 gap-4 place-content-center">
+                        {data.tools.map((tool, idx) => (
+                          <div
+                            className="w-28 md:w-36 bg-primary-200 border-spacing-1 shadow p-3 drop-shadow-md font-medium "
+                            key={idx}
+                          >
+                            <p className="md:text-sm text-[11px] text-center">
+                              {tool}
+                            </p>
+                          </div>
+                        ))}
                       </div>
-                      <div>
-                        <h3 className="text-center font-lekton">Demo</h3>
-                        <img
-                          src={data.demo}
-                          alt=""
-                          className="mx-auto lg:w-2/4"
-                        />
+
+                      <h3 className="font-semibold md:text-xl p-2">Demo</h3>
+                      <img
+                        src={data.demo}
+                        alt=""
+                        className="mx-auto lg:w-2/4"
+                      />
+                      <div className="p-2">
+                        <button
+                          className="bg-secondary-100 shadow drop-shadow-sm p-2 rounded-lg text-sm font-semibold"
+                          onClick={() => (window.location.href = data.github)}
+                        >
+                          {data.github_status}
+                        </button>
                       </div>
                     </div>
                   </motion.div>
