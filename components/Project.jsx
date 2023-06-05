@@ -44,7 +44,7 @@ export const Project = () => {
                 <div className="flex items-center space-x-3">
                   <img
                     src={data.img}
-                    className="w-10 h-10 rounded-full"
+                    className="w-10 h-10 rounded-lg shadow-sm"
                     alt=""
                   />
                   <div>
@@ -91,11 +91,13 @@ export const Project = () => {
                           <li key={index}>{expLine}</li>
                         ))}
                       </ul>
-                      <h3 className="font-semibold md:text-xl p-2">Tools</h3>
+                      <h3 className="font-semibold md:text-xl p-2">
+                        Technologys
+                      </h3>
                       <div className="grid grid-cols-2 grid-flow-row md:grid-cols-3 gap-4 place-content-center">
                         {data.tools.map((tool, idx) => (
                           <div
-                            className="w-28 md:w-36 bg-primary-200 border-spacing-1 shadow p-3 drop-shadow-md font-medium "
+                            className="w-28 md:w-36 bg-primary-100 border-spacing-1 shadow p-3 drop-shadow-md font-medium "
                             key={idx}
                           >
                             <p className="md:text-sm text-[11px] text-center">
@@ -105,16 +107,29 @@ export const Project = () => {
                         ))}
                       </div>
 
-                      <h3 className="font-semibold md:text-xl p-2">Demo</h3>
+                      <h3 className="font-semibold md:text-xl p-2">Product</h3>
                       <img
                         src={data.demo}
                         alt=""
                         className="mx-auto lg:w-2/4"
                       />
-                      <div className="p-2">
+                      <div className="p-2 space-x-8">
+                        {data.video_demo && (
+                          <button
+                            className="bg-white shadow text-secondary-200 drop-shadow-sm p-2 rounded-lg text-sm font-semibold"
+                            onClick={() => {
+                              window.open(data.video_demo, "_blank");
+                            }}
+                          >
+                            Demo
+                          </button>
+                        )}
+
                         <button
-                          className="bg-secondary-100 shadow drop-shadow-sm p-2 rounded-lg text-sm font-semibold"
-                          onClick={() => (window.location.href = data.github)}
+                          className="bg-secondary-200 shadow text-white drop-shadow-sm p-2 rounded-lg text-sm font-semibold"
+                          onClick={() => {
+                            window.open(data.github, "_blank");
+                          }}
                         >
                           {data.github_status}
                         </button>

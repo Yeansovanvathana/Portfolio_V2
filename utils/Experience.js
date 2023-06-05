@@ -2,7 +2,7 @@ export const Exp = [
   {
     id: 1,
     project: "Chatbot",
-    img: "/Icons/adobe-xd-1-logo-svgrepo-com.svg",
+    img: "/Icons/chatbot.jpg",
     project_description: "Online Event Management Using Chatbot",
     project_date: "January 1, 2022 - April 1, 2022",
     job_level: "Junior Level",
@@ -25,7 +25,7 @@ export const Exp = [
   {
     id: 2,
     project: "Point of Sale System",
-    img: "/Icons/adobe-xd-1-logo-svgrepo-com.svg",
+    img: "/Icons/pos.svg",
     project_description: "Shop Mangement System And Print Invoice",
     project_date: "November 11, 2022 - January 20, 2023",
     job_level: "Junior Level",
@@ -34,7 +34,7 @@ export const Exp = [
     position: "FullStack Developer",
     project_id: "Point of Sale (POS)",
     work_exp: [
-      "- The project is to create a Point of Sale (POS) system by developing a desktop application using Electron.js.",
+      "- The project is to create a store management system developing a desktop application using Electron.js.",
       "- Designed the application's structure and backend using Nest.js and Developed the frontend using React.js",
       "- Overcame various challenges with the backend and worked closely with the team to identify and implement solutions to improve the system's performance.",
       "- Communicated regularly with the team to ensure that project goals and timelines were met.",
@@ -42,7 +42,8 @@ export const Exp = [
     tools: ["Nest js", "React js", "Electron js", "Postgresql"],
     demo: "/projects/pos.png",
     github_status: "Github",
-    github: "",
+    github: "https://github.com/Yeansovanvathana/Api_POS.git",
+    video_demo: "https://youtu.be/irmHygchiCg",
   },
   {
     id: 3,
