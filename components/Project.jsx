@@ -41,7 +41,7 @@ export const Project = () => {
               className="md:w-[80%]  bg-primary-200 rounded-lg shadow h-auto relative"
             >
               <div className="p-6 space-y-3">
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-5">
                   <img
                     src={data.img}
                     className="w-10 h-10 rounded-lg shadow-sm"
@@ -114,6 +114,17 @@ export const Project = () => {
                         className="mx-auto lg:w-2/4"
                       />
                       <div className="p-2 space-x-8">
+                        {data.publish && (
+                          <button
+                            className="bg-white shadow text-secondary-200 drop-shadow-sm p-2 rounded-lg text-sm font-semibold"
+                            onClick={() => {
+                              window.open(data.publish, "_blank");
+                            }}
+                          >
+                            Publish
+                          </button>
+                        )}
+
                         {data.video_demo && (
                           <button
                             className="bg-white shadow text-secondary-200 drop-shadow-sm p-2 rounded-lg text-sm font-semibold"
