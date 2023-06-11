@@ -129,7 +129,7 @@ export const Exp = [
     img: "/Icons/otp.png",
     project_description:
       "The project implemented a simple OTP system for user authentication",
-    project_date: "February 17, 2022 - Mach 14, 2023",
+    project_date: "February 17, 2022 - March 14, 2023",
     job_level: "Junior Level",
     Type: "Internship",
     Company: "Task from Japanese Company(Internship)",
@@ -152,7 +152,7 @@ export const Exp = [
     img: "/Icons/health.jpg",
     project_description:
       "Tracking Personal health by review and checking note on each day",
-    project_date: "February 17, 2022 - Mach 14, 2023",
+    project_date: "April 1, 2022 - May 1, 2023",
     job_level: "Junior Level",
     Type: "Personal Project",
     Company: "Personal Project",
