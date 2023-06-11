@@ -151,10 +151,10 @@ export const Exp = [
     project: "Health Checking",
     img: "/Icons/health.jpg",
     project_description:
-      "The project implemented a simple OTP system for user authentication",
+      "Tracking Personal health by review and checking note on each day",
     project_date: "February 17, 2022 - Mach 14, 2023",
     job_level: "Junior Level",
-    Type: "Internship",
+    Type: "Personal Project",
     Company: "Personal Project",
     position: "Developer",
     project_id: "Health Checking",
