@@ -149,7 +149,7 @@ export const Slider = () => {
     return () => {
       resetTimeout();
     };
-  }, [index, isLoading]);
+  }, [slide.length, isLoading]);
 
   return (
     <div className="slideshow max-w-md">
@@ -206,9 +206,9 @@ export const Slider = () => {
               className="slideshowSlider"
               style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
-              {slide.map((slide, index) => (
+              {slide.map((slideItem, index) => (
                 <div className="slide" key={index}>
-                  {slide}
+                  {slideItem}
                 </div>
               ))}
             </div>
