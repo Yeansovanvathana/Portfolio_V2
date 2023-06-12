@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const About = () => {
   return (
@@ -9,15 +10,21 @@ export const About = () => {
     >
       <div className="w-[1280px] mx-auto mt-20  p-5 px-10">
         <div className="flex flex-col items-center justify-center space-y-3 mb-10">
-          <h1 className="text-3xl font-medium">About</h1>
+          <h1 className="text-3xl md:text-4xl font-medium">About</h1>
           <div className="h-[4px] rounded-full bg-secondary-400 w-20"></div>
         </div>
         <div className="relative p-10 bg-primary-200 w-full ">
           <div className="flex flex-col md:flex-row md:space-x-10 ">
-            <img src="/VathanaCode.jpg" alt="" className="w-[50%] md:w-[30%]" />
+            <Image
+              src="/VathanaCode.jpg"
+              alt=""
+              width={300}
+              height={300}
+              className="w-[50%] md:w-[30%]"
+            />
             <div className="my-10 space-y-5 md:p-3 lg:p-10 lg:border-primary-100 md:border-2 rounded-l-3xl">
               <h3 className="text-2xl lg:text-3xl">Hi! I'm Vathana</h3>
-              <p className="lg:text-xl font-extralight">
+              <p className="lg:text-lg">
                 I am a self-motivated and inpendent with a strong ability to
                 adapt to various situation. I am committed to continual learning
                 and am alway looking to expand my skillset I have gained
@@ -30,24 +37,25 @@ export const About = () => {
 
           <div className="md:hidden absolute bg-secondary-400 w-[20%] rounded-l-xl h-8 top-10 right-0"></div>
           <div>
-            <div className="border-primary-100 w-56 border-2 space-x-4 flex items-center mt-10">
-              <div className="bg-primary-100 w-10 h-10"></div>
-              <h3 className="uppercase">Education</h3>
+            <div className="border-secondary-400 w-56 border-2 space-x-4 flex items-center mt-10">
+              <div className="bg-secondary-400 w-10 h-10"></div>
+              <h3 className="uppercase font-semibold">Education</h3>
             </div>
             <div className="space-y-3 mt-6">
               <h3 className="uppercase font-bold text-xl ">
                 Bachlor of software engineering
               </h3>
               <div>
-                <p className="font-normal md:text-lg">
+                <p className="font-semibold md:text-lg">
                   Kirirom Institute of Technology
                 </p>
                 <p className="font-normal md:text-lg">
                   November 13, 2019 - October 1, 2023
                 </p>
               </div>
+              <h3 className="uppercase font-bold text-xl ">Diploma</h3>
               <div>
-                <p className="font-normal md:text-lg">
+                <p className="font-semibold md:text-lg">
                   Kompong Speu High School
                 </p>
                 <p className="font-normal md:text-lg">
@@ -57,9 +65,9 @@ export const About = () => {
             </div>
           </div>
           <div>
-            <div className="border-primary-100 w-56 border-2 space-x-4 flex items-center mt-10">
-              <div className="bg-primary-100 w-10 h-10"></div>
-              <h3 className="uppercase">Achievement</h3>
+            <div className="border-secondary-400 w-56 border-2 space-x-4 flex items-center mt-10">
+              <div className="bg-secondary-400 w-10 h-10"></div>
+              <h3 className="uppercase font-semibold">Achievement</h3>
             </div>
             <div className="space-y-3 mt-6">
               <h3 className="uppercase font-bold text-xl ">
