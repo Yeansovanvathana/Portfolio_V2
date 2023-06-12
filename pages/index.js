@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import DotGroup from "@/components/DotGroup";
 import { Skillset } from "@/components/Skillset";
 import { Project } from "@/components/Project";
+import { About } from "@/components/About";
 
 export default function Home() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -83,6 +84,16 @@ export default function Home() {
           onViewportEnter={() => setSelectedPage("experience")}
         >
           <Project />
+        </motion.div>
+      </div>
+
+      <div className="">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("about")}
+        >
+          <About />
         </motion.div>
       </div>
 

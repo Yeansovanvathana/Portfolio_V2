@@ -36,8 +36,16 @@ export const Project = () => {
         </div>
         <div className="justify-center flex flex-col space-y-3 items-center my-10 p-8">
           {Exp.map((data, idx) => (
-            <div
+            <motion.div
               key={idx}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 1.2 }}
+              variants={{
+                hidden: { opacity: 0, y: 50 },
+                visible: { opacity: 1, y: 0 },
+              }}
               className="md:w-[80%]  bg-primary-200 rounded-lg shadow h-auto relative"
             >
               <div className="p-6 space-y-3">
@@ -49,7 +57,9 @@ export const Project = () => {
                   />
                   <div>
                     <h2 className="font-bold text-xl">{data.project}</h2>
-                    <p>{data.project_description}</p>
+                    <p className="max-w-xs md:max-w-3xl">
+                      {data.project_description}
+                    </p>
                   </div>
                 </div>
                 <p>{data.project_date}</p>
@@ -149,7 +159,7 @@ export const Project = () => {
                   </motion.div>
                 )}
               </AnimatePresence>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

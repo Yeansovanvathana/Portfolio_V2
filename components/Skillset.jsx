@@ -8,7 +8,7 @@ export const Skillset = () => {
     >
       <div className="w-[1280px] mx-auto">
         <div className="lg:flex lg:gap-40 p-10 lg:p-0">
-          <div className="p-5 md:text-start text-center ">
+          <div className="p-5 px-10 md:text-start text-center ">
             <motion.h2
               className="text-3xl font-medium py-2"
               initial="hidden"
@@ -133,7 +133,7 @@ export const Skillset = () => {
         </div>
 
         <div className="lg:flex lg:gap-56 p-10 lg:p-0 ">
-          <div className="p-5 md:text-start text-center ">
+          <div className="p-5 px-10 md:text-start text-center ">
             <motion.h2
               className="text-3xl font-medium py-2"
               initial="hidden"

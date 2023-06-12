@@ -52,7 +52,7 @@ export const Page = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
-              transition={{ delay: 0.4, duration: 0.5 }}
+              transition={{ delay: 0.4, duration: 0.7 }}
               variants={{
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
@@ -62,7 +62,17 @@ export const Page = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               felis neque, venenatis a volutpat et, ultrices.
             </motion.p>
-            <div className="flex space-x-3 justify-center md:justify-start">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ delay: 0.6, duration: 0.8 }}
+              variants={{
+                hidden: { opacity: 0, x: -50 },
+                visible: { opacity: 1, x: 0 },
+              }}
+              className="flex space-x-3 justify-center md:justify-start"
+            >
               <AiFillGithub
                 onClick={() => {
                   window.open("https://github.com/Yeansovanvathana", "_blank");
@@ -79,7 +89,7 @@ export const Page = () => {
                 }}
                 className="w-10 h-10 hover:text-secondary-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
               />
-            </div>
+            </motion.div>
           </div>
           <motion.div
             initial="hidden"

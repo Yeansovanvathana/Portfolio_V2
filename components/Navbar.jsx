@@ -102,12 +102,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             </div>
 
             <Link
-              page="Testimonials"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
-            <Link
-              page="Contact"
+              page="About"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
@@ -157,12 +152,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             />
 
             <Link
-              page="Testimonials"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
-            <Link
-              page="Contact"
+              page="About"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
