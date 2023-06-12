@@ -40,7 +40,7 @@ export const Feedback = () => {
       >
         <div className="w-14 h-14 relative">
           <Image
-            src="/kimhoung.jpg"
+            src="/feedback/kimhoung.jpg"
             width={300}
             height={300}
             alt="Image"
@@ -99,7 +99,7 @@ export const Feedback = () => {
       >
         <div className="w-14 h-14 relative">
           <Image
-            src="/sopheak.jpg"
+            src="/feedback/sopheak.jpg"
             width={300}
             height={300}
             alt="Image"
@@ -158,7 +158,7 @@ export const Feedback = () => {
       >
         <div className="w-14 h-14 relative">
           <Image
-            src="/sreytoch.jpg"
+            src="/feedback/sreytoch.jpg"
             width={300}
             height={300}
             alt="Image"

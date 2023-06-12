@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import LineGradient from "./LineGradient";
 import { Exp } from "@/utils/Experience";
+import Image from "next/image";
 
 export const Project = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -50,7 +51,9 @@ export const Project = () => {
             >
               <div className="p-6 space-y-3">
                 <div className="flex items-center space-x-5">
-                  <img
+                  <Image
+                    width={300}
+                    height={300}
                     src={data.img}
                     className="w-10 h-10 rounded-lg shadow-sm"
                     alt=""
@@ -118,8 +121,10 @@ export const Project = () => {
                       </div>
 
                       <h3 className="font-semibold md:text-xl p-2">Product</h3>
-                      <img
+                      <Image
                         src={data.demo}
+                        width={300}
+                        height={300}
                         alt=""
                         className="mx-auto lg:w-2/4"
                       />

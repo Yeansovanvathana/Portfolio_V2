@@ -12,7 +12,7 @@ export const Slider = () => {
       <div className="row-span-2 grid-item w-full">
         {/* <img /> */}
         <Image
-          src="/CMC_promotion.jpg"
+          src="/design/CMC_promotion.jpg"
           width={300}
           height={300}
           loading="lazy"
@@ -22,9 +22,7 @@ export const Slider = () => {
       </div>
       <div className="grid-item">
         <Image
-          Import
-          Loader
-          src="/recruitment_REVISE-1.jpg"
+          src="/design/recruitment_REVISE-1.jpg"
           width={300}
           height={300}
           loading="lazy"
@@ -34,7 +32,7 @@ export const Slider = () => {
       </div>
       <div className="grid-item">
         <Image
-          src="/newYearHoliday_v1.jpg"
+          src="/design/newYearHoliday_v1.jpg"
           width={300}
           height={300}
           loading="lazy"
@@ -44,7 +42,7 @@ export const Slider = () => {
       </div>
       <div className="col-span-2 grid-item">
         <Image
-          src="/poster.jpg"
+          src="/design/poster.jpg"
           width={300}
           height={300}
           loading="lazy"
@@ -54,7 +52,7 @@ export const Slider = () => {
       </div>
       <div className="col-span-2 grid-item">
         <Image
-          src="/voucher_front_v3.jpg"
+          src="/design/voucher_front_v3.jpg"
           width={300}
           height={300}
           loading="lazy"
@@ -64,7 +62,7 @@ export const Slider = () => {
       </div>
       <div className="hidden md:flex grid-item">
         <Image
-          src="/Poster2_vertical_v1.jpg"
+          src="/design/Poster2_vertical_v1.jpg"
           width={300}
           height={300}
           loading="lazy"
@@ -76,7 +74,7 @@ export const Slider = () => {
     <div className="grid grid-cols-2 gap-2 justify-center md:grid-cols-3">
       <div className="row-span-2 grid-item ">
         <Image
-          src="/Service2_Production.jpg"
+          src="/design/Service2_Production.jpg"
           width={300}
           height={300}
           loading="lazy"
@@ -86,7 +84,7 @@ export const Slider = () => {
       </div>
       <div className="grid-item">
         <Image
-          src="/work_flow_CMC_REVISE-1.jpg"
+          src="/design/work_flow_CMC_REVISE-1.jpg"
           width={300}
           height={300}
           loading="lazy"
@@ -96,7 +94,7 @@ export const Slider = () => {
       </div>
       <div className="grid-item">
         <Image
-          src="/Discount2.jpg"
+          src="/design/Discount2.jpg"
           width={300}
           height={300}
           loading="lazy"
@@ -106,7 +104,7 @@ export const Slider = () => {
       </div>
       <div className="col-span-2 grid-item">
         <Image
-          src="/dish_washer.jpg"
+          src="/design/dish_washer.jpg"
           width={300}
           height={300}
           loading="lazy"
@@ -116,7 +114,7 @@ export const Slider = () => {
       </div>
       <div className="col-span-2 md:col-span-3 grid-item">
         <Image
-          src="/CMC_Wash_Comming_Soon.jpg"
+          src="/design/CMC_Wash_Comming_Soon.jpg"
           width={300}
           height={300}
           loading="lazy"

@@ -77,7 +77,7 @@ export const Exp = [
   {
     id: 4,
     project: "ZombiteMe",
-    img: "Icons/zombitemeIcon.png",
+    img: "/Icons/zombitemeIcon.png",
     project_description:
       "Zombiteme is the journey game that go through zombie places",
     project_date: "May 1, 2022 - August 1, 2022",
@@ -93,7 +93,7 @@ export const Exp = [
       "- Successfully launched Zombiteme on Playstore, receiving positive feedback and satisfying players with its engaging gameplay.",
     ],
     tools: ["Unity", "C++", "Photoshop"],
-    demo: "projects/level3.gif",
+    demo: "/projects/level3.gif",
     github_status: "Github",
     github: "https://github.com/Yeansovanvathana/zombiteme.git",
     video_demo: "https://youtu.be/lYrw9LJ23eQ",

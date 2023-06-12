@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
+
 export const Skillset = () => {
   return (
     <section
@@ -48,14 +50,21 @@ export const Skillset = () => {
               className="flex justify-center"
             >
               <div className=" rounded-2xl relative h-64 w-50 mt-5 lg:pr-10">
-                <img src="/Code Bug (HD).png" alt="" />
+                <Image
+                  width={300}
+                  height={300}
+                  src="/design/Code Bug (HD).png"
+                  alt=""
+                />
               </div>
             </motion.div>
           </div>
           <div className="flex gap-4 justify-center items-center ">
             <div className="space-y-4">
               <div className="Card md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/python-svgrepo-com.svg"
                   alt=""
                   className="Button"
@@ -63,15 +72,29 @@ export const Skillset = () => {
                 <p className="text-sm md:text-xl">Python</p>
               </div>
               <div className="Card md:w-60">
-                <img src="/Icons/java-icon.svg" className="Button" alt="" />
+                <Image
+                  width={300}
+                  height={300}
+                  src="/Icons/java-icon.svg"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">Java</p>
               </div>
               <div className="Card md:w-60">
-                <img src="/Icons/js.png" className="Button" alt="" />
+                <Image
+                  width={300}
+                  height={300}
+                  src="/Icons/js.png"
+                  className="Button"
+                  alt=""
+                />
                 <p className="text-sm md:text-xl">JavaScript</p>
               </div>
               <div className="Card md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/node-js-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -79,7 +102,9 @@ export const Skillset = () => {
                 <p className="text-sm md:text-xl">Node js</p>
               </div>
               <div className="Card md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/nest-middleware-js-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -89,7 +114,9 @@ export const Skillset = () => {
             </div>
             <div className="space-y-4">
               <div className="Card md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/react-javascript-js-framework-facebook-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -97,7 +124,9 @@ export const Skillset = () => {
                 <p className="text-sm md:text-xl">React js</p>
               </div>
               <div className="Card md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/vue-vuejs-javascript-js-framework-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -105,7 +134,9 @@ export const Skillset = () => {
                 <p className="text-sm md:text-xl">Vue js</p>
               </div>
               <div className="Card md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/flutter-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -113,7 +144,9 @@ export const Skillset = () => {
                 <p className="text-sm md:text-xl">Flutter</p>
               </div>
               <div className="Card md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/unity-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -121,7 +154,9 @@ export const Skillset = () => {
                 <p className="text-sm md:text-xl">Unity</p>
               </div>
               <div className="Card md:w-60 invisible">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/unity-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -173,14 +208,21 @@ export const Skillset = () => {
               className="flex justify-center"
             >
               <div className=" rounded-2xl relative h-64 w-50 mt-5">
-                <img src="/Thinking (HD).png" alt="" />
+                <Image
+                  width={300}
+                  height={300}
+                  src="/design/Thinking (HD).png"
+                  alt=""
+                />
               </div>
             </motion.div>
           </div>
           <div className="flex gap-4 justify-center items-center">
             <div className="space-y-4">
               <div className="Card2 md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/photoshop-cc-logo-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -188,7 +230,9 @@ export const Skillset = () => {
                 <p className="text-[11px] md:text-xl">Adobe Photoshop</p>
               </div>
               <div className="Card2 md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/illustrator-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -196,7 +240,9 @@ export const Skillset = () => {
                 <p className="text-[11px] md:text-xl">Adobe Illustrator</p>
               </div>
               <div className="Card2 md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/adobe-xd-1-logo-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -206,7 +252,9 @@ export const Skillset = () => {
             </div>
             <div className="space-y-4">
               <div className="Card2 md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/adobe-lightroom-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -214,7 +262,9 @@ export const Skillset = () => {
                 <p className="text-[11px] md:text-xl">Adobe Lightroom</p>
               </div>
               <div className="Card2 md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/figma-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -222,7 +272,9 @@ export const Skillset = () => {
                 <p className="text-sm md:text-xl">Figma</p>
               </div>
               <div className="Card2 md:w-60">
-                <img
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/Canva_icon_2021.svg.png"
                   className="Button"
                   alt=""
