@@ -169,4 +169,27 @@ export const Exp = [
     video_demo: "",
     publish: "",
   },
+  {
+    id: 8,
+    project: "Spotify Clone",
+    img: "/Icons/Spotify_icon.svg.png",
+    project_description:
+      "Spotify clone 2.0 with the latest update UI of spotify 2023",
+    project_date: "May 22, 2023 - May 25, 2023",
+    job_level: "Junior Level",
+    Type: "Personal Project",
+    Company: "Personal Project",
+    position: "Developer",
+    project_id: "Spotify 2.0",
+    work_exp: [
+      "- I have learn new thing on spotify api and authentication also spotify-web-api-node.",
+      "- Additionally, I have learn to use recoil as state management with react",
+    ],
+    tools: ["React js", "Next js"],
+    demo: "/projects/spotiy.png",
+    github_status: "Github",
+    github: "https://github.com/Yeansovanvathana/Spotify_2.0.git",
+    video_demo: "",
+    publish: "",
+  },
 ];

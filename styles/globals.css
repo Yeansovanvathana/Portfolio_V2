@@ -57,7 +57,7 @@ img {
 .slideshowDot.active {
   /* background-color: #6a0dad; */
   width: 45px;
-  @apply bg-yellow-500
+  @apply bg-secondary-300
 }
 
 @layer components {

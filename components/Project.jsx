@@ -23,7 +23,7 @@ export const Project = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
           >
-            Design Poster
+            Projects Experience
           </motion.h2>
           <motion.h3
             initial={{ opacity: 0, x: -50 }}
@@ -31,7 +31,7 @@ export const Project = () => {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="text-xl text-gray-500"
           >
-            many of our work showcase here
+            many of my work showcase here
           </motion.h3>
         </div>
         <div className="justify-center flex flex-col space-y-3 items-center my-10 p-8">

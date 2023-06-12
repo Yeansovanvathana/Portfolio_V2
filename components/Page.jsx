@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export const Page = () => {
   const [text] = useTypewriter({
@@ -32,7 +33,7 @@ export const Page = () => {
             >
               {/* I'm <span className=" text-green-600">Yean</span> Sovanvathana */}
               {text}
-              <Cursor cursorColor="orange" />
+              <Cursor cursorColor="black" />
             </motion.h2>
             <motion.h3
               initial="hidden"
@@ -61,6 +62,24 @@ export const Page = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               felis neque, venenatis a volutpat et, ultrices.
             </motion.p>
+            <div className="flex space-x-3 justify-center md:justify-start">
+              <AiFillGithub
+                onClick={() => {
+                  window.open("https://github.com/Yeansovanvathana", "_blank");
+                }}
+                className="w-10 h-10 hover:text-secondary-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
+              />
+
+              <AiFillLinkedin
+                onClick={() => {
+                  window.open(
+                    "https://www.linkedin.com/in/sovanvathana-yean-79474727a/",
+                    "_blank"
+                  );
+                }}
+                className="w-10 h-10 hover:text-secondary-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
+              />
+            </div>
           </div>
           <motion.div
             initial="hidden"

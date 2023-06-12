@@ -35,7 +35,7 @@ export const Design = () => {
             }}
             className="text-xl text-gray-500"
           >
-            many of our work showcase here
+            many of my work showcase here
           </motion.h3>
         </div>
         <div className=" max-w-screen-xl p-10 flex justify-center items-center flex-col lg:flex-row lg:justify-between gap-5 ">
