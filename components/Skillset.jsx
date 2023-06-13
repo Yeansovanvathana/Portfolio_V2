@@ -6,9 +6,9 @@ export const Skillset = () => {
   return (
     <section
       id="skills"
-      className="lg:h-screen flex lg:items-center lg:justify-center pt-10 lg:pt-0"
+      className="lg:h-full flex lg:items-center lg:justify-center pt-10 lg:pt-0"
     >
-      <div className="w-[1280px] mx-auto">
+      <div className="w-[1280px] mx-auto lg:py-24">
         <div className="lg:flex lg:gap-40 p-10 lg:p-0">
           <div className="p-5 px-10 md:text-start text-center ">
             <motion.h2
@@ -59,7 +59,7 @@ export const Skillset = () => {
               </div>
             </motion.div>
           </div>
-          <div className="flex gap-4 justify-center items-center ">
+          <div className="flex gap-4 justify-center items-center lg:pr-10">
             <div className="space-y-4">
               <div className="Card md:w-60">
                 <Image
@@ -217,7 +217,7 @@ export const Skillset = () => {
               </div>
             </motion.div>
           </div>
-          <div className="flex gap-4 justify-center items-center">
+          <div className="flex gap-4 justify-center items-center lg:pr-10">
             <div className="space-y-4">
               <div className="Card2 md:w-60">
                 <Image

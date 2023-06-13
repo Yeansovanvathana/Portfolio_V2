@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Image from "next/image";
 
 export const About = () => {
@@ -8,7 +7,7 @@ export const About = () => {
       id="about"
       className="lg:h-full flex lg:items-center lg:justify-center "
     >
-      <div className="w-[1280px] mx-auto mt-20 lg:p-5 lg:px-10 px-8">
+      <div className="w-[1280px] mx-auto mt-24 lg:p-5 lg:px-10 px-8">
         <div className="flex flex-col items-center justify-center space-y-3 mb-10">
           <h1 className="text-3xl md:text-4xl font-medium">About</h1>
           <div className="h-[4px] rounded-full bg-secondary-400 w-20"></div>
@@ -23,7 +22,9 @@ export const About = () => {
               className="w-[50%] md:w-[70%]"
             />
             <div className="my-10 space-y-5 md:p-3 lg:p-10 lg:border-primary-100 md:border-2 rounded-l-3xl md:col-span-2 ">
-              <h3 className="text-2xl lg:text-3xl">Hi! I'm Vathana</h3>
+              <h3 className="text-2xl lg:text-3xl font-semibold">
+                Hi! I'm Vathana
+              </h3>
               <p className="lg:text-lg">
                 I am a self-motivated and inpendent with a strong ability to
                 adapt to various situation. I am committed to continual learning
@@ -32,6 +33,15 @@ export const About = () => {
                 ability to work collaboratively or independently to achieve
                 project goals.{" "}
               </p>
+              <div className="flex space-x-2 items-center md:justify-end">
+                <Image
+                  width={300}
+                  height={300}
+                  src="/Icons/icons8-gmail.svg"
+                  className="Button"
+                />
+                <p className="font-semibold">sovanvathanayean@gmail.com</p>
+              </div>
             </div>
           </div>
 
@@ -79,7 +89,7 @@ export const About = () => {
                 competition with four rounds, where I honed my problem-solving,
                 critical thinking and programming skill, This experience also
                 taught me how to work well under pressure and the importance of
-                self-leaning{" "}
+                self-learning{" "}
               </p>
             </div>
           </div>

@@ -148,7 +148,7 @@ export const Slider = () => {
     return () => {
       resetTimeout();
     };
-  }, [slide.length, isLoading]);
+  }, [index, slide.length, isLoading]);
 
   return (
     <div className="slideshow max-w-md">
