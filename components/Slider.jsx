@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 
 export const Slider = () => {
   const [index, setIndex] = React.useState(0);
@@ -192,7 +191,7 @@ export const Slider = () => {
               ></div>
             ))}
           </div>
-          <motion.div
+          <div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
@@ -212,7 +211,7 @@ export const Slider = () => {
                 </div>
               ))}
             </div>
-          </motion.div>
+          </div>
         </>
       )}
     </div>
