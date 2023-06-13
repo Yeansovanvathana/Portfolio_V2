@@ -13,11 +13,8 @@ export const Page = () => {
     typeSpeed: 200,
   });
   return (
-    <section
-      id="home"
-      className="gap-16 py-10 mt-10 md:mt-0 lg:h-screen w-full"
-    >
-      <div className="flex-col justify-center items-center md:py-5 md:pt-5">
+    <section id="home" className="gap-16 py-10 mt-10 md:mt-0 lg:h-full w-full">
+      <div className="flex-col justify-center items-center md:py-5 md:pt-5 lg:py-10">
         <div className="lg:flex md:flex justify-between max-w-screen-xl mx-auto z-20 xl-items-center md:mt-24 py-10">
           <div className="p-10 text-center lg:text-start md:text-start">
             <motion.h2
@@ -59,8 +56,9 @@ export const Page = () => {
               }}
               className="text-md py-5 leading-8 text-gray-500 max-w-xl"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              felis neque, venenatis a volutpat et, ultrices.
+              I specialize in developing and designing innovative digital
+              solutions, combining my skills in coding and visual aesthetics to
+              create seamless and user-centric experiences.
             </motion.p>
             <motion.div
               initial="hidden"

@@ -30,7 +30,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-5 `}>
       <div className="flex items-center justify-between mx-auto max-w-screen-2xl px-4 md:px-10 ">
         <h4
-          className="font-playfair uppercase text-xl font-bold cursor-pointer"
+          className="font-playfair uppercase text-xl font-bold cursor-pointer lg:text-2xl"
           onClick={() => (window.location.href = "")}
         >
           VATHANA

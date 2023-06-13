@@ -31,6 +31,7 @@ export default function Home() {
     <div className="h-full w-screen overflow-scroll bg-primary-100 ">
       <Head>
         <title>Vathana Portfolio</title>
+        <link rel="icon" href="/Icons/v-logo.png" type="image/x-icon" />
       </Head>
 
       <Navbar
