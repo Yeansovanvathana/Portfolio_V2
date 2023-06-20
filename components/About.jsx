@@ -52,25 +52,29 @@ export const About = () => {
               <h3 className="uppercase font-semibold">Education</h3>
             </div>
             <div className="space-y-3 mt-6">
-              <h3 className="uppercase font-bold text-xl ">
-                Bachlor of software engineering
-              </h3>
-              <div>
-                <p className="font-semibold md:text-lg">
-                  Kirirom Institute of Technology
-                </p>
-                <p className="font-normal text-base">
-                  November 13, 2019 - October 1, 2023
-                </p>
+              <div className="space-y-1">
+                <h3 className="uppercase font-bold text-xl ">
+                  Bachlor of software engineering
+                </h3>
+                <div>
+                  <p className="font-semibold md:text-lg">
+                    Kirirom Institute of Technology
+                  </p>
+                  <p className="font-normal text-base">
+                    November 13, 2019 - October 1, 2023
+                  </p>
+                </div>
               </div>
-              <h3 className="uppercase font-bold text-xl ">Diploma</h3>
-              <div>
-                <p className="font-semibold md:text-lg">
-                  Kompong Speu High School
-                </p>
-                <p className="font-normal text-base">
-                  October 1, 2018 - August 18, 2019
-                </p>
+              <div className="space-y-1">
+                <h3 className="uppercase font-bold text-xl ">Diploma</h3>
+                <div>
+                  <p className="font-semibold md:text-lg">
+                    Kompong Speu High School
+                  </p>
+                  <p className="font-normal text-base">
+                    October 1, 2018 - August 18, 2019
+                  </p>
+                </div>
               </div>
             </div>
           </div>
