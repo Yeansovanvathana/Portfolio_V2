@@ -33,7 +33,7 @@ export const Skillset = () => {
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
               }}
-              className="text-xl text-gray-500"
+              className="text-base md:text-lg text-gray-500"
             >
               Comprehensive Technical Skillset for Development
             </motion.h3>
@@ -59,7 +59,7 @@ export const Skillset = () => {
               </div>
             </motion.div>
           </div>
-          <div className="flex gap-4 justify-center items-center lg:pr-10">
+          <div className="flex gap-4 justify-center items-center lg:pl-2 lg:pr-10">
             <div className="space-y-4">
               <div className="Card md:w-60">
                 <Image
@@ -191,7 +191,7 @@ export const Skillset = () => {
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
               }}
-              className="text-xl text-gray-500"
+              className="text-base md:text-lg text-gray-500"
             >
               Comprehensive Technical Skillset for Design
             </motion.h3>
