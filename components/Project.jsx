@@ -30,7 +30,7 @@ export const Project = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="text-xl text-gray-500"
+            className="text-base md:text-lg text-gray-500"
           >
             many of my work showcase here
           </motion.h3>

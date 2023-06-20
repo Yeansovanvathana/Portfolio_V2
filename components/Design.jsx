@@ -33,7 +33,7 @@ export const Design = () => {
               hidden: { opacity: 0, x: -50 },
               visible: { opacity: 1, x: 0 },
             }}
-            className="text-xl text-gray-500"
+            className="text-base md:text-lg text-gray-500"
           >
             many of my work showcase here
           </motion.h3>

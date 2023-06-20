@@ -54,7 +54,7 @@ export const Page = () => {
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
               }}
-              className="text-md py-5 leading-8 text-gray-500 max-w-xl"
+              className="text-sm py-5 leading-8 text-gray-500 max-w-xl"
             >
               I specialize in developing and designing innovative digital
               solutions, combining my skills in coding and visual aesthetics to

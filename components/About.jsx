@@ -25,7 +25,7 @@ export const About = () => {
               <h3 className="text-2xl lg:text-3xl font-semibold">
                 Hi! I'm Vathana
               </h3>
-              <p className="lg:text-lg">
+              <p className="text-base">
                 I am a self-motivated and inpendent with a strong ability to
                 adapt to various situation. I am committed to continual learning
                 and am alway looking to expand my skillset I have gained
@@ -52,25 +52,29 @@ export const About = () => {
               <h3 className="uppercase font-semibold">Education</h3>
             </div>
             <div className="space-y-3 mt-6">
-              <h3 className="uppercase font-bold text-xl ">
-                Bachlor of software engineering
-              </h3>
-              <div>
-                <p className="font-semibold md:text-lg">
-                  Kirirom Institute of Technology
-                </p>
-                <p className="font-normal md:text-lg">
-                  November 13, 2019 - October 1, 2023
-                </p>
+              <div className="space-y-1">
+                <h3 className="uppercase font-bold text-xl ">
+                  Bachlor of software engineering
+                </h3>
+                <div>
+                  <p className="font-semibold md:text-lg">
+                    Kirirom Institute of Technology
+                  </p>
+                  <p className="font-normal text-base">
+                    November 13, 2019 - October 1, 2023
+                  </p>
+                </div>
               </div>
-              <h3 className="uppercase font-bold text-xl ">Diploma</h3>
-              <div>
-                <p className="font-semibold md:text-lg">
-                  Kompong Speu High School
-                </p>
-                <p className="font-normal md:text-lg">
-                  October 1, 2018 - August 18, 2019
-                </p>
+              <div className="space-y-1">
+                <h3 className="uppercase font-bold text-xl ">Diploma</h3>
+                <div>
+                  <p className="font-semibold md:text-lg">
+                    Kompong Speu High School
+                  </p>
+                  <p className="font-normal text-base">
+                    October 1, 2018 - August 18, 2019
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -83,7 +87,7 @@ export const About = () => {
               <h3 className="uppercase font-bold text-xl ">
                 Top 20 cscup 2022
               </h3>
-              <p className="font-normal md:text-lg">
+              <p className="font-normal text-base">
                 {" "}
                 I finished in the top 20 of a challenging programming-solving
                 competition with four rounds, where I honed my problem-solving,
