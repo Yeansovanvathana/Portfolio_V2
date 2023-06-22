@@ -101,7 +101,7 @@ export const Page = () => {
             >
               <a
                 class="bg-primary-200 text-secondary-200 font-semibold py-2 px-6 rounded-md shadow-sm drop-shadow-sm"
-                href="/projects/YeanSovanvathana-CV.pdf"
+                href="/projects/YeanSovanvathanaCV.pdf"
                 download
               >
                 Download CV
@@ -145,7 +145,7 @@ export const Page = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <div className="border bg-gray-100 w-4/6 h-24 rounded-xl grid grid-cols-3 divide-x divide-gray-300">
+          <div className="border bg-gray-100 w-4/6 h-24 rounded-xl grid grid-cols-3 divide-x divide-gray-300 max-w-screen-xl mx-auto">
             <div className="flex flex-col justify-center items-center ">
               <div className="flex flex-row items-center gap-3">
                 <svg
