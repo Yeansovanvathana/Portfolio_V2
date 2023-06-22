@@ -15,9 +15,9 @@ export const Page = () => {
     return (
         <section
             id="home"
-            className=" mt-10 md:mt-0 md:h-screen w-full flex justify-center items-center py-10 "
+            className="mt-10 md:mt-0 md:h-full w-full flex justify-center items-center pt-10 md:pt-44 md:pb-10 "
         >
-            <div className="flex-col justify-center items-center w-full ">
+            <div className="flex-col justify-center items-center w-full space-y-10">
                 <div className="lg:flex md:flex justify-between max-w-screen-xl mx-auto z-20 lg:px-20">
                     <div className="p-10 text-center lg:text-start md:text-start ">
                         <motion.h2
@@ -152,7 +152,7 @@ export const Page = () => {
                         visible: { opacity: 1, y: 0 },
                     }}
                 >
-                    <div className="w-[1280px] h-4/5 px-[10%]">
+                    <div className="w-[1280px] h-4/6 px-[10%]">
                         <div className="border bg-gray-100 rounded-xl grid grid-cols-3 divide-x divide-gray-300">
                             <div className="flex flex-col justify-center items-center py-2">
                                 <div className="flex flex-row items-center gap-3">
