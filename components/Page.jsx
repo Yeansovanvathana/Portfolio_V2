@@ -54,7 +54,7 @@ export const Page = () => {
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
               }}
-              className="text-sm py-5 leading-8 text-gray-500 max-w-xl"
+              className="text-sm py-2 leading-8 text-gray-500 max-w-xl"
             >
               I specialize in developing and designing innovative digital
               solutions, combining my skills in coding and visual aesthetics to
@@ -69,13 +69,13 @@ export const Page = () => {
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
               }}
-              className="flex space-x-3 justify-center md:justify-start"
+              className="flex space-x-3 py-2 justify-center md:justify-start text-secondary-200"
             >
               <AiFillGithub
                 onClick={() => {
                   window.open("https://github.com/Yeansovanvathana", "_blank");
                 }}
-                className="w-10 h-10 hover:text-secondary-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
+                className="w-10 h-10 hover:text-secondary-300 transition ease-in-out delay-50  hover:-translate-y-1 hover:scale-105 duration-300"
               />
 
               <AiFillLinkedin
@@ -85,8 +85,27 @@ export const Page = () => {
                     "_blank"
                   );
                 }}
-                className="w-10 h-10 hover:text-secondary-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300"
+                className="w-10 h-10 hover:text-secondary-300 transition ease-in-out delay-50  hover:-translate-y-1 hover:scale-105 duration-300"
               />
+            </motion.div>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ delay: 0.8, duration: 0.8 }}
+              variants={{
+                hidden: { opacity: 0, x: -50 },
+                visible: { opacity: 1, x: 0 },
+              }}
+              className="py-4 "
+            >
+              <a
+                class="bg-primary-200 text-secondary-200 font-semibold py-2 px-6 rounded-md shadow-sm drop-shadow-sm"
+                href="/projects/YeanSovanvathana-CV.pdf"
+                download
+              >
+                Download CV
+              </a>
             </motion.div>
           </div>
           <motion.div
