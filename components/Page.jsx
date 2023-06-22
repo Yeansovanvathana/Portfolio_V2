@@ -152,7 +152,7 @@ export const Page = () => {
                         visible: { opacity: 1, y: 0 },
                     }}
                 >
-                    <div className="w-[1280px] h-4/6 px-[10%]">
+                    <div className="w-[1280px] h-4/6 px-20">
                         <div className="border bg-gray-100 rounded-xl grid grid-cols-3 divide-x divide-gray-300">
                             <div className="flex flex-col justify-center items-center py-2">
                                 <div className="flex flex-row items-center gap-3">
