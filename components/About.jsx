@@ -19,19 +19,31 @@ export const About = () => {
               alt=""
               width={300}
               height={300}
-              className="w-[50%] md:w-[70%]"
+              className="w-[50%] md:w-[90%] md:h-[80%] md:my-16"
             />
-            <div className="my-10 space-y-5 md:p-3 lg:p-10 lg:border-primary-100 md:border-2 rounded-l-3xl md:col-span-2 ">
+            <div className="my-10 space-y-5 md:p-3 lg:p-10 md:border-primary-100 md:border-2 rounded-l-3xl md:col-span-2 ">
               <h3 className="text-2xl lg:text-2xl font-semibold">
                 Hi! I'm Vathana
               </h3>
               <p className="text-base">
-                I am a self-motivated and inpendent with a strong ability to
-                adapt to various situation. I am committed to continual learning
-                and am alway looking to expand my skillset I have gained
-                extensive experience in development, I am confident in my
-                ability to work collaboratively or independently to achieve
-                project goals.{" "}
+                I'm a software developer passionate about building innovative
+                and user-friendly products. I believe in continuous learning and
+                value the insights gained from collaborating with others.
+              </p>
+              <p className="text-base">
+                With 2.5 years of experience as a software developer, I've
+                worked on a variety of projects, from personal projects to
+                client engagements. know in multiple programming languages and
+                technologies, I'm always eager to expand my skill set.
+              </p>
+              <p className="text-base">
+                Outside of work, I enjoy spending time with family and friends,
+                traveling, and pursuing new knowledge.
+              </p>
+              <p className="text-base">
+                Feel free to explore my portfolio for project examples. If you
+                have any questions or collaboration opportunities, let's connect
+                and create remarkable solutions together.
               </p>
               <div className="flex space-x-2 items-center md:justify-end">
                 <Image

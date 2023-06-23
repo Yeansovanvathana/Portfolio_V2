@@ -15,7 +15,7 @@ export const Page = () => {
   return (
     <section
       id="home"
-      className="mt-10 md:mt-0 md:h-full w-full flex justify-center items-center pt-10 md:pt-44 md:pb-10 "
+      className="mt-10 md:mt-0 md:h-full w-full flex justify-center items-center pt-20 md:pt-44 md:pb-10 "
     >
       <div className="flex-col justify-center items-center w-full space-y-10">
         <div className="lg:flex md:flex justify-between max-w-screen-xl mx-auto z-20 lg:px-20">
