@@ -152,74 +152,42 @@ export const Slider = () => {
 
     return (
         <div className="slideshow lg:max-w-xs max-w-sm">
-            {isLoading ? (
-                <div className="hidden md:flex loading">
-                    <div className="pb-5 w-4 h-4 text-center"></div>
-                    <div className="slideshowSlider">
-                        <div className="grid grid-cols-2 gap-2 w-[36rem] justify-center md:grid-cols-3 animate-pulse border-red-500">
-                            <div className="row-span-2 grid-item">
-                                <div className="w-42 h-[330px] bg-gray-200"></div>
-                            </div>
-                            <div className="grid-item">
-                                <div className="bg-gray-200  h-32"></div>
-                            </div>
-                            <div className="grid-item">
-                                <div className="bg-gray-200 w-32 h-32"></div>
-                            </div>
-                            <div className="col-span-2 grid-item">
-                                <div className="bg-gray-200 h-[195px]"></div>
-                            </div>
-                            <div className="col-span-2 grid-item">
-                                <div className="bg-gray-200  h-32"></div>
-                            </div>
-                            <div className="hidden md:flex grid-item">
-                                <div className="bg-gray-200 w-32 h-32"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            ) : (
-                <>
-                    <div className="slideshowDots pb-5">
-                        {slide.map((_, idx) => (
-                            <div
-                                key={idx}
-                                className={`slideshowDot${
-                                    index === idx ? " active" : ""
-                                }`}
-                                onClick={() => {
-                                    setIndex(idx);
-                                }}
-                            ></div>
-                        ))}
-                    </div>
+            <div className="slideshowDots pb-5">
+                {slide.map((_, idx) => (
                     <div
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true, amount: 0.5 }}
-                        transition={{ duration: 1 }}
-                        variants={{
-                            hidden: { opacity: 0, y: 50 },
-                            visible: { opacity: 1, y: 0 },
+                        key={idx}
+                        className={`slideshowDot${
+                            index === idx ? " active" : ""
+                        }`}
+                        onClick={() => {
+                            setIndex(idx);
                         }}
-                    >
-                        <div
-                            className="slideshowSlider"
-                            style={{
-                                transform: `translate3d(${
-                                    -index * 100
-                                }%, 0, 0)`,
-                            }}
-                        >
-                            {slide.map((slideItem, index) => (
-                                <div className="slide" key={index}>
-                                    {slideItem}
-                                </div>
-                            ))}
+                    ></div>
+                ))}
+            </div>
+            <div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ duration: 1 }}
+                variants={{
+                    hidden: { opacity: 0, y: 50 },
+                    visible: { opacity: 1, y: 0 },
+                }}
+            >
+                <div
+                    className="slideshowSlider"
+                    style={{
+                        transform: `translate3d(${-index * 100}%, 0, 0)`,
+                    }}
+                >
+                    {slide.map((slideItem, index) => (
+                        <div className="slide" key={index}>
+                            {slideItem}
                         </div>
-                    </div>
-                </>
-            )}
+                    ))}
+                </div>
+            </div>
         </div>
     );
 };

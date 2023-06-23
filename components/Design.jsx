@@ -9,10 +9,10 @@ export const Design = () => {
             id="design"
             className="lg:h-full flex lg:items-center lg:justify-center"
         >
-            <div className="max-w-screen-xl mx-auto lg:px-20 mt-20 lg:mt-0 lg:py-24">
+            <div className="max-w-screen-xl mx-auto lg:px-20 mt-20 lg:mt-0 lg:py-24 w-full">
                 <div className="p-5 px-10 md:text-start text-center ">
                     <motion.h2
-                        className="text-2xl font-medium py-2"
+                        className="text-2xl font-semibold py-2"
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}

@@ -12,7 +12,7 @@ export const Skillset = () => {
                 <div className="lg:flex lg:gap-52 p-10 lg:p-0">
                     <div className="py-5 lg:px-10 md:text-start text-center">
                         <motion.h2
-                            className="text-2xl font-medium py-2"
+                            className="text-2xl font-semibold py-2"
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true, amount: 0.5 }}
@@ -172,7 +172,7 @@ export const Skillset = () => {
                 <div className="lg:flex lg:gap-56 p-10 lg:p-0 ">
                     <div className="py-5 lg:px-10 md:text-start text-center ">
                         <motion.h2
-                            className="text-2xl font-medium py-2"
+                            className="text-2xl font-semibold py-2"
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true, amount: 0.5 }}
