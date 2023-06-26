@@ -17,9 +17,9 @@ export const Project = () => {
       className="lg:h-full flex justify-center items-center "
     >
       <div className="max-w-screen-xl mx-auto lg:px-20 w-full mt-20">
-        <div className="p-5 px-10 md:text-start text-center font-semibold">
+        <div className="p-5 px-10 md:text-start text-center">
           <motion.h2
-            className="text-2xl font-medium py-2"
+            className="text-2xl  font-semibold py-2"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
@@ -30,7 +30,7 @@ export const Project = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="text-xl md:text-base text-gray-500"
+            className="text-sm md:text-base text-gray-500"
           >
             many of my work showcase here
           </motion.h3>
