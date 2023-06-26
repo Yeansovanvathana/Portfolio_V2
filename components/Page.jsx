@@ -104,7 +104,7 @@ export const Page = () => {
             >
               <a
                 class="bg-primary-200 text-secondary-200 font-semibold py-2 px-6 rounded-md shadow-sm drop-shadow-sm"
-                href="/projects/YeanSovanvathanaCV.pdf"
+                href="/projects/YeansovanvathanaCV.pdf"
                 download
               >
                 Download CV

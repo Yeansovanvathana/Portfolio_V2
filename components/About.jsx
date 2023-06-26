@@ -21,7 +21,7 @@ export const About = () => {
               height={300}
               className="w-[50%] md:w-[90%] md:h-[80%] md:my-16"
             />
-            <div className="my-10 space-y-5 md:p-3 lg:p-10 md:border-primary-100 md:border-2 rounded-l-3xl md:col-span-2 ">
+            <div className="my-10 space-y-5 md:p-3 lg:p-10 md:border-primary-100 md:border-2 rounded-l-3xl md:col-span-2 max-w-prose">
               <h3 className="text-2xl lg:text-2xl font-semibold">
                 Hi! I'm Vathana
               </h3>
@@ -31,10 +31,10 @@ export const About = () => {
                 value the insights gained from collaborating with others.
               </p>
               <p className="text-base">
-                With 2.5 years of experience as a software developer, I've
-                worked on a variety of projects, from personal projects to
-                client engagements. know in multiple programming languages and
-                technologies, I'm always eager to expand my skill set.
+                With 2.5 years of experience as a software developer, I have
+                gained extensive experience in development, I am confident in my
+                ability to work collaboratively or independently to achieve
+                project goals.
               </p>
               <p className="text-base">
                 Outside of work, I enjoy spending time with family and friends,
