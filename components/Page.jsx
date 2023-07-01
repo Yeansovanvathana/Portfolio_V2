@@ -78,7 +78,7 @@ export const Page = () => {
                 onClick={() => {
                   window.open("https://github.com/Yeansovanvathana", "_blank");
                 }}
-                className="w-10 h-10 hover:text-secondary-300 transition ease-in-out delay-50  hover:-translate-y-1 hover:scale-105 duration-300"
+                className="w-10 h-10 hover:text-gray-500 transition ease-in-out delay-50  hover:-translate-y-1 hover:scale-105 duration-300"
               />
 
               <AiFillLinkedin
@@ -88,7 +88,7 @@ export const Page = () => {
                     "_blank"
                   );
                 }}
-                className="w-10 h-10 hover:text-secondary-300 transition ease-in-out delay-50  hover:-translate-y-1 hover:scale-105 duration-300"
+                className="w-10 h-10 hover:text-gray-500 transition ease-in-out delay-50  hover:-translate-y-1 hover:scale-105 duration-300"
               />
             </motion.div>
             <motion.div
