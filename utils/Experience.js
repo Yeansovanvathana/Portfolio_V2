@@ -20,7 +20,8 @@ export const Exp = [
     tools: ["Next js", "React js", "tailwind css", "Spring boot", "postgresql"],
     demo: "/projects/jolmer.png",
     github_status: "Private Github",
-    github: "",
+    github:
+      "https://github.com/incubation-center/B8-FullStack--Website--Group5",
     video_demo: "",
     publish: "https://www.jolmer.me/",
   },
@@ -43,8 +44,8 @@ export const Exp = [
     ],
     tools: ["Node js", "Dialogflow", "Meta Developer"],
     demo: "/projects/chatbot.gif",
-    github_status: "Private Github",
-    github: "",
+    github_status: "Private GitLab",
+    github: "https://gitlab.com/Yeansovanvathana/meetnewpeople",
     video_demo: "",
     publish: "",
   },
@@ -143,8 +144,9 @@ export const Exp = [
     ],
     tools: ["Vue js", "Node js"],
     demo: "/projects/resort sensor system.png",
-    github_status: "Private Github",
-    github: "https://github.com/Yeansovanvathana/zombiteme.git",
+    github_status: "Private GitLab",
+    github:
+      "https://gitlab.com/KEEN-VC/RD/Resort-Rating-System/resort-sensor-system",
     video_demo: "",
     publish: "",
   },
@@ -217,4 +219,5 @@ export const Exp = [
   //     video_demo: "",
   //     publish: "",
   // },
+
 ];
