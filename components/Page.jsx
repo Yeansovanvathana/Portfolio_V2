@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { BsTelegram } from "react-icons/bs";
 
 export const Page = () => {
   const [text] = useTypewriter({
@@ -87,6 +88,12 @@ export const Page = () => {
                     "https://www.linkedin.com/in/sovanvathana-yean-79474727a/",
                     "_blank"
                   );
+                }}
+                className="w-10 h-10 hover:text-gray-500 transition ease-in-out delay-50  hover:-translate-y-1 hover:scale-105 duration-300"
+              />
+              <BsTelegram
+                onClick={() => {
+                  window.open("https://t.me/odvito", "_blank");
                 }}
                 className="w-10 h-10 hover:text-gray-500 transition ease-in-out delay-50  hover:-translate-y-1 hover:scale-105 duration-300"
               />
