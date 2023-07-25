@@ -3,9 +3,8 @@ import { useState, useEffect } from "react";
 import { Page } from "@/components/Page";
 import { Design } from "@/components/Design";
 import { Navbar } from "@/components/Navbar";
-import useMediaQuery from "@/hooks/useMediaQuery";
 import { motion } from "framer-motion";
-import DotGroup from "@/components/DotGroup";
+// import DotGroup from "@/components/DotGroup";
 import { Skillset } from "@/components/Skillset";
 import { Project } from "@/components/Project";
 import { About } from "@/components/About";
@@ -13,7 +12,7 @@ import { About } from "@/components/About";
 export default function Home() {
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
-  const isDesktop = useMediaQuery("(min-width: 1060px)");
+  // const isDesktop = useMediaQuery("(min-width: 1060px)");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,7 +27,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-primary-100 ">
+    <div>
       <Head>
         <title>Vathana Portfolio</title>
         <link rel="icon" href="/Icons/v-logo.png" type="image/x-icon" />

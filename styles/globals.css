@@ -15,6 +15,32 @@ img {
     object-fit: cover;
     border-radius: 8px;
 }
+:root {
+    --svg-fill-color: gray;
+  }
+  
+  /* Dark mode */
+.dark {
+--svg-fill-color: white;
+}
+
+@layer base {
+    body {
+        @apply bg-primary-100 dark:bg-gray-800;
+    }
+}
+
+@layer components {
+    .Card {
+        @apply w-36 bg-primary-200 dark:bg-gray-600 border-spacing-1 shadow p-2 drop-shadow-md font-medium flex items-center gap-3;
+    }
+    .Card2 {
+        @apply w-36 bg-primary-200 dark:bg-gray-600  border-spacing-1 shadow p-2 drop-shadow-md font-medium flex items-center gap-3;
+    }
+    .Button {
+        @apply w-6 h-6;
+    }
+}
 
 .slideshow {
     overflow: hidden;
@@ -51,16 +77,4 @@ img {
     /* background-color: #6a0dad; */
     width: 45px;
     @apply bg-secondary-300;
-}
-
-@layer components {
-    .Card {
-        @apply w-36 bg-primary-200 border-spacing-1 shadow p-2 drop-shadow-md font-medium flex items-center gap-3;
-    }
-    .Card2 {
-        @apply w-36 bg-primary-200 border-spacing-1 shadow p-2 drop-shadow-md font-medium flex items-center gap-3;
-    }
-    .Button {
-        @apply w-6 h-6;
-    }
 }
