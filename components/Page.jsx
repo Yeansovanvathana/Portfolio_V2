@@ -110,7 +110,7 @@ export const Page = () => {
               className="py-4 "
             >
               <a
-                class="bg-primary-200 text-secondary-200 font-semibold py-2 px-6 rounded-md shadow-sm drop-shadow-sm"
+                class="bg-primary-200 dark:bg-gray-200 text-secondary-200 font-semibold py-2 px-6 rounded-md shadow-sm drop-shadow-sm"
                 href="/projects/YeansovanvathanaCV.pdf"
                 download
               >
@@ -132,7 +132,7 @@ export const Page = () => {
             <div className="bg-primary-200 dark:bg-gray-600 w-48 h-80 rounded-3xl relative">
               <div className="w-48 h-80 rounded-3xl absolute overflow-hidden right-5 -top-5">
                 <Image
-                  src="/Vathana.jpg"
+                  src="/Vathana1.jpg"
                   width={300}
                   height={300}
                   alt="Vathana"
@@ -156,7 +156,7 @@ export const Page = () => {
           }}
         >
           <div className="w-[1280px] h-4/6 px-20">
-            <div className=" bg-gray-100 dark:bg-gray-600 rounded-xl grid grid-cols-3 divide-x divide-gray-300">
+            <div className=" bg-gray-100 dark:bg-gray-600 rounded-xl grid grid-cols-3 divide-x divide-gray-300 dark:divide-gray-800">
               <div className="flex flex-col justify-center items-center py-2">
                 <div className="flex flex-row items-center gap-3">
                   <svg

@@ -30,7 +30,7 @@ export const Project = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="text-sm md:text-base text-gray-500"
+            className="text-sm md:text-base text-gray-500 dark:text-gray-400"
           >
             many of my work showcase here
           </motion.h3>
@@ -47,7 +47,7 @@ export const Project = () => {
                 hidden: { opacity: 0, y: 50 },
                 visible: { opacity: 1, y: 0 },
               }}
-              className="md:w-[80%]  bg-primary-200 rounded-lg shadow h-auto relative"
+              className="md:w-[80%]  bg-primary-200 dark:bg-gray-700 rounded-lg shadow h-auto relative"
             >
               <div className="px-6 py-3 space-y-3">
                 <div className="flex items-center space-x-5">
@@ -78,7 +78,7 @@ export const Project = () => {
               <AnimatePresence>
                 {activeDropdown === data.id && (
                   <motion.div
-                    className=" bg-primary-200 overflow-hidden rounded-lg shadow"
+                    className=" bg-primary-200 dark:bg-gray-700 overflow-hidden rounded-lg shadow"
                     initial={{ height: 0 }}
                     animate={{ height: "auto" }}
                     exit={{
@@ -116,7 +116,7 @@ export const Project = () => {
                       <div className="grid grid-cols-2 grid-flow-row md:grid-cols-3 gap-4 place-content-center">
                         {data.tools.map((tool, idx) => (
                           <div
-                            className="w-28 md:w-36 bg-primary-100 border-spacing-1 shadow p-3 drop-shadow-md font-medium "
+                            className="w-28 md:w-36 bg-primary-100 dark:bg-gray-600 border-spacing-1 shadow p-3 drop-shadow-md font-medium "
                             key={idx}
                           >
                             <p className="md:text-sm text-[11px] text-center">

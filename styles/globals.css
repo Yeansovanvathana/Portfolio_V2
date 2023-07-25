@@ -71,10 +71,11 @@ img {
     margin: 15px 4px 0px;
     background-color: #c4c4c4;
     transition: 0.5s;
+    @apply  dark:bg-gray-500;
 }
 
 .slideshowDot.active {
     /* background-color: #6a0dad; */
     width: 45px;
-    @apply bg-secondary-300;
+    @apply bg-gray-400 dark:bg-white;
 }

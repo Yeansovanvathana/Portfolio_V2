@@ -61,7 +61,10 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
       );
     } else {
       return (
-        <Button className="bg-gray-200" onClick={() => setTheme("dark")}>
+        <Button
+          className="bg-gray-200 border border-gray-300 hover:border-white"
+          onClick={() => setTheme("dark")}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5 "
@@ -113,7 +116,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 type="button"
                 className={`${
                   selectedPage === "design" || selectedPage === "experience"
-                    ? "text-secondary-200 font-bold"
+                    ? "text-secondary-200 dark:text-gray-500   font-bold"
                     : ""
                 } flex items-center focus:outline-none`}
                 onClick={() =>
@@ -167,7 +170,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
           <div className="flex items-center space-x-4">
             {renderThemeChanger()}
             <button
-              className={`text-gray-600 transition duration-500 ${
+              className={`text-gray-600 transition duration-500 dark:text-gray-200 ${
                 isMenuToggled ? "rotate-90" : ""
               }`}
               onClick={() => setIsMenuToggled(!isMenuToggled)}
