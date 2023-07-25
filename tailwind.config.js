@@ -5,12 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
         primary: {
           100: "#D9D9D9",
           200: "#EBEBEB",
+          300: "#121212",
         },
         secondary: {
           100: "#bdc3c7",
@@ -26,6 +28,13 @@ module.exports = {
         // Simple 16 column grid
         G: "repeat(auto-fit, minmax(200px, 1fr))",
       },
+    },
+  },
+  variants: {
+    extend: {
+      backgroundColor: ["dark"],
+      borderColor: ["dark"],
+      textColor: ["dark"],
     },
   },
   plugins: [],

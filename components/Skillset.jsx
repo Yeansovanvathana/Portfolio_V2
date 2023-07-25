@@ -33,7 +33,7 @@ export const Skillset = () => {
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
               }}
-              className="text-sm md:text-base text-gray-500"
+              className="text-sm md:text-base text-gray-500 dark:text-gray-400"
             >
               Comprehensive Technical Skillset for Development
             </motion.h3>
@@ -191,7 +191,7 @@ export const Skillset = () => {
                 hidden: { opacity: 0, x: -50 },
                 visible: { opacity: 1, x: 0 },
               }}
-              className="text-sm md:text-base text-gray-500"
+              className="text-sm md:text-base text-gray-500 dark:text-gray-400"
             >
               Comprehensive Technical Skillset for Design
             </motion.h3>

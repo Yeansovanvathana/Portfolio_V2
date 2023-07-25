@@ -12,7 +12,7 @@ export const Feedback = () => {
         <h3 className="text-xl font-medium text-center lg:text-start">
           Client Feedback
         </h3>
-        <p className="text-xs text-gray-500 text-center lg:text-start">
+        <p className="text-xs text-gray-500 text-center lg:text-start dark:text-gray-400">
           What Our Clients Say About Us...
         </p>
       </div>
@@ -26,7 +26,7 @@ export const Feedback = () => {
           hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
-        className="flex flex-col lg:flex-row bg-primary-200 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 px-4"
+        className="flex flex-col lg:flex-row bg-primary-200 dark:bg-gray-600 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 px-4"
       >
         <div className="w-14 h-14 relative">
           <Image
@@ -48,7 +48,7 @@ export const Feedback = () => {
             <AiFillStar className={`${StarStyles}`} />
             <AiOutlineStar className={`${StarStyles}`} />
           </div>
-          <p className="lg:max-w-[320px] max-w-[320px] text-center lg:text-start text-gray-500 text-xs">
+          <p className="lg:max-w-[320px] max-w-[320px] text-center lg:text-start text-gray-500 text-xs dark:text-gray-300">
             The poster design you provided surpassed our expectations! It
             beautifully captured the essence of our brand and received many new
             customer.
@@ -85,7 +85,7 @@ export const Feedback = () => {
           hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
-        className="flex flex-col lg:flex-row bg-primary-200 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 my-4 px-4"
+        className="flex flex-col lg:flex-row bg-primary-200 dark:bg-gray-600 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 my-4 px-4"
       >
         <div className="w-14 h-14 relative">
           <Image
@@ -107,7 +107,7 @@ export const Feedback = () => {
             <AiFillStar className={`${StarStyles}`} />
             <AiOutlineStar className={`${StarStyles}`} />
           </div>
-          <p className="lg:max-w-[320px] max-w-[400px] text-center lg:text-start text-gray-500 text-xs">
+          <p className="lg:max-w-[320px] max-w-[400px] text-center lg:text-start text-gray-500 text-xs dark:text-gray-300">
             Thank you for the exceptional poster design. It truly stood out and
             connected with our intended audience.
           </p>
@@ -144,7 +144,7 @@ export const Feedback = () => {
           hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
-        className="flex flex-col lg:flex-row bg-primary-200 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 px-4"
+        className="flex flex-col lg:flex-row bg-primary-200 dark:bg-gray-600 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 px-4"
       >
         <div className="w-14 h-14 relative">
           <Image
@@ -166,7 +166,7 @@ export const Feedback = () => {
             <AiFillStar className={`${StarStyles}`} />
             <AiFillStar className={`${StarStyles}`} />
           </div>
-          <p className="lg:max-w-[320px] max-w-[400px] text-center lg:text-start text-gray-500 text-xs">
+          <p className="lg:max-w-[320px] max-w-[400px] text-center lg:text-start text-gray-500 text-xs dark:text-gray-400">
             Your service delivered an excellent banner that effectively
             communicates our message to customers.
           </p>

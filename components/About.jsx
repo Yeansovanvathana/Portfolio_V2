@@ -12,7 +12,7 @@ export const About = () => {
           <h1 className="text-3xl md:text-3xl font-semibold">About</h1>
           <div className="h-[4px] rounded-full bg-secondary-400 w-20"></div>
         </div>
-        <div className="relative p-10 bg-primary-200 w-full ">
+        <div className="relative p-10 bg-primary-200 w-full dark:bg-gray-600">
           <div className="grid grid-cols-1 md:grid-cols-3 auto-cols-max ">
             <Image
               src="/VathanaCode.jpg"

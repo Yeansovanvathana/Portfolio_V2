@@ -15,14 +15,33 @@ img {
     object-fit: cover;
     border-radius: 8px;
 }
-/* .grid-item {
-    opacity: 0;
-    transition: opacity 0.5s ease-in;
+:root {
+    --svg-fill-color: gray;
+  }
+  
+  /* Dark mode */
+.dark {
+--svg-fill-color: white;
 }
 
-.grid-item.animate {
-    opacity: 0;
-} */
+@layer base {
+    body {
+        @apply bg-primary-100 dark:bg-gray-800;
+    }
+}
+
+@layer components {
+    .Card {
+        @apply w-36 bg-primary-200 dark:bg-gray-600 border-spacing-1 shadow p-2 drop-shadow-md font-medium flex items-center gap-3;
+    }
+    .Card2 {
+        @apply w-36 bg-primary-200 dark:bg-gray-600  border-spacing-1 shadow p-2 drop-shadow-md font-medium flex items-center gap-3;
+    }
+    .Button {
+        @apply w-6 h-6;
+    }
+}
+
 .slideshow {
     overflow: hidden;
 }
@@ -52,22 +71,11 @@ img {
     margin: 15px 4px 0px;
     background-color: #c4c4c4;
     transition: 0.5s;
+    @apply  dark:bg-gray-500;
 }
 
 .slideshowDot.active {
     /* background-color: #6a0dad; */
     width: 45px;
-    @apply bg-secondary-300;
-}
-
-@layer components {
-    .Card {
-        @apply w-36 bg-primary-200 border-spacing-1 shadow p-2 drop-shadow-md font-medium flex items-center gap-3;
-    }
-    .Card2 {
-        @apply w-36 bg-primary-200 border-spacing-1 shadow p-2 drop-shadow-md font-medium flex items-center gap-3;
-    }
-    .Button {
-        @apply w-6 h-6;
-    }
+    @apply bg-gray-400 dark:bg-white;
 }
