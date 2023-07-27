@@ -29,8 +29,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Vathana Portfolio</title>
-        <link rel="icon" href="/Icons/v-logo.png" type="image/x-icon" />
+        <title>Vathana | Portfolio</title>
+        <link rel="icon" href="/Icons/icon (2).png" type="image/x-icon" />
       </Head>
 
       <Navbar
