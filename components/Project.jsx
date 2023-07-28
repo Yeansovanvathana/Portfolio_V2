@@ -127,10 +127,10 @@ export const Project = () => {
                       </div>
 
                       <h3 className="font-semibold md:text-xl p-2">Product</h3>
-                      <Image
+                      <img
                         src={data.demo}
-                        width={300}
-                        height={300}
+                        // width={300}
+                        // height={300}
                         alt=""
                         className="mx-auto lg:w-2/4"
                       />

@@ -2,7 +2,7 @@ export const Exp = [
   {
     id: 1,
     project: "JolMer",
-    img: "/Icons/jolmer.png",
+    img: "/Icons/jolmer2.png",
     project_description: "Competition and volunteer event system",
     project_date: "May 19, 2023 - Present",
     job_level: "Entry Level",
@@ -18,7 +18,7 @@ export const Exp = [
       "- Integrated authentication and authorization mechanisms to ensure secure access to the platform and protect user privacy.",
     ],
     tools: ["Next js", "React js", "tailwind css", "Spring boot", "postgresql"],
-    demo: "/projects/jolmer.png",
+    demo: "/projects/jolmer2.png",
     github_status: "Private Github",
     github:
       "https://github.com/incubation-center/B8-FullStack--Website--Group5",
@@ -219,5 +219,4 @@ export const Exp = [
   //     video_demo: "",
   //     publish: "",
   // },
-
 ];
