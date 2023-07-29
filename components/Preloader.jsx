@@ -42,9 +42,9 @@ const Preloader = () => {
             <div className="overlay flex items-center justify-center">
               <motion.div
                 className="dark:bg-gray-800 bg-primary-100 h-2 w-1/2"
-                initial={{ width: "20%" }}
+                initial={{ width: "0%" }}
                 animate={{
-                  width: ["20%", "100%"],
+                  width: ["0%", "100%"],
                 }}
                 transition={{
                   duration: 1,
