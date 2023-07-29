@@ -47,7 +47,7 @@ const Preloader = () => {
                   width: ["0%", "100%"],
                 }}
                 transition={{
-                  duration: 1,
+                  duration: 1.5,
                   repeat: Infinity,
                   repeatType: "loop",
                   repeatDelay: 0.5,
