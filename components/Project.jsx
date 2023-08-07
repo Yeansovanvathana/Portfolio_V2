@@ -47,7 +47,7 @@ export const Project = () => {
                 hidden: { opacity: 0, y: 50 },
                 visible: { opacity: 1, y: 0 },
               }}
-              className="md:w-[80%]  bg-primary-200 dark:bg-gray-700 rounded-lg shadow h-auto relative"
+              className="md:w-[80%] text-sm md:text-base bg-primary-200 dark:bg-gray-700 rounded-lg shadow h-auto relative"
             >
               <div className="px-6 py-3 space-y-3">
                 <div className="flex items-center space-x-5">
@@ -58,11 +58,11 @@ export const Project = () => {
                     className="w-10 h-10 rounded-lg shadow-sm"
                     alt=""
                   />
-                  <div>
+                  <div className="w-[240px] md:w-full">
                     <h2 className="font-semibold text-lg">{data.project}</h2>
-                    <p className="max-w-xs md:max-w-3xl">
-                      {data.project_description}
-                    </p>
+                    <div className="max-w-xs md:max-w-3xl overflow-hidden">
+                      <p className="text-left">{data.project_description}</p>
+                    </div>
                   </div>
                 </div>
                 <p>{data.project_date}</p>
@@ -105,7 +105,7 @@ export const Project = () => {
                       <h3 className="font-semibold md:text-xl p-2">
                         {data.project_id}
                       </h3>
-                      <ul className="space-y-2">
+                      <ul className="space-y-2 text-justify">
                         {data.work_exp.map((expLine, index) => (
                           <li key={index}>{expLine}</li>
                         ))}
