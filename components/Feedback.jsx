@@ -26,7 +26,7 @@ export const Feedback = () => {
           hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
-        className="flex flex-col lg:flex-row bg-primary-200 dark:bg-gray-600 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 px-4"
+        className="flex w-[300px] md:w-full flex-col lg:flex-row bg-primary-200 dark:bg-gray-600 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 px-4"
       >
         <div className="w-14 h-14 relative">
           <Image
@@ -85,7 +85,7 @@ export const Feedback = () => {
           hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
-        className="flex flex-col lg:flex-row bg-primary-200 dark:bg-gray-600 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 my-4 px-4"
+        className="flex w-[300px] md:w-full flex-col lg:flex-row bg-primary-200 dark:bg-gray-600 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 my-4 px-4"
       >
         <div className="w-14 h-14 relative">
           <Image
@@ -144,7 +144,7 @@ export const Feedback = () => {
           hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
-        className="flex flex-col lg:flex-row bg-primary-200 dark:bg-gray-600 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 px-4"
+        className="flex w-[300px] md:w-full flex-col lg:flex-row bg-primary-200 dark:bg-gray-600 rounded-lg shadow justify-center items-center m-auto py-5 lg:py-2 px-4"
       >
         <div className="w-14 h-14 relative">
           <Image
