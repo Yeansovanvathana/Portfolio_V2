@@ -110,8 +110,8 @@ export const Page = () => {
               className="py-4 "
             >
               <a
-                class="bg-primary-200 dark:bg-gray-200 text-secondary-200 font-semibold py-2 px-6 rounded-md shadow-sm drop-shadow-sm"
-                href="/projects/YeansovanvathanaCV.pdf"
+                class="bg-primary-200 dark:bg-gray-300 text-secondary-200 font-semibold py-2 px-6 rounded-md shadow-sm drop-shadow-sm"
+                href="/projects/Yeansovanvathana.pdf"
                 download
               >
                 Download CV
