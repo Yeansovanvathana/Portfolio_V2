@@ -22,7 +22,7 @@ export const Exp = [
     github_status: "Private Github",
     github:
       "https://github.com/incubation-center/B8-FullStack--Website--Group5",
-    video_demo: "",
+    video_demo: "https://youtu.be/P24sjJw_Xpo",
     publish: "https://www.jolmer.me/",
   },
   {
