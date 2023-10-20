@@ -44,7 +44,7 @@ export const Exp = [
     github:
       "https://github.com/incubation-center/B8-FullStack--Website--Group5",
     video_demo: "https://youtu.be/P24sjJw_Xpo",
-    publish: "https://www.jolmer.me/",
+    publish: "https://jolmer-frontend.vercel.app/",
   },
   {
     id: 2,
