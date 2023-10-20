@@ -75,9 +75,9 @@ export const About = () => {
                   <p className="font-semibold md:text-lg">
                     Kirirom Institute of Technology
                   </p>
-                  <p className="font-normal text-sm md:text-base">
+                  {/* <p className="font-normal text-sm md:text-base">
                     November 13, 2019 - October 1, 2023
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="space-y-1">
@@ -86,9 +86,9 @@ export const About = () => {
                   <p className="font-semibold md:text-lg">
                     Kompong Speu High School
                   </p>
-                  <p className="font-normal text-sm md:text-base">
+                  {/* <p className="font-normal text-sm md:text-base">
                     October 1, 2018 - August 18, 2019
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

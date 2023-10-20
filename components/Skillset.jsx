@@ -127,6 +127,16 @@ export const Skillset = () => {
                 <Image
                   width={300}
                   height={300}
+                  src="/Icons/nextjs.png"
+                  className="Button"
+                  alt=""
+                />
+                <p className="text-sm md:text-base">Next js</p>
+              </div>
+              <div className="Card md:w-48">
+                <Image
+                  width={300}
+                  height={300}
                   src="/Icons/vue-vuejs-javascript-js-framework-svgrepo-com.svg"
                   className="Button"
                   alt=""
@@ -137,27 +147,18 @@ export const Skillset = () => {
                 <Image
                   width={300}
                   height={300}
-                  src="/Icons/flutter-svgrepo-com.svg"
+                  src="/Icons/nuxtjs.png"
                   className="Button"
                   alt=""
                 />
-                <p className="text-sm md:text-base">Flutter</p>
+                <p className="text-sm md:text-base">Nuxt js</p>
               </div>
+
               <div className="Card md:w-48">
                 <Image
                   width={300}
                   height={300}
-                  src="/Icons/unity-svgrepo-com.svg"
-                  className="Button"
-                  alt=""
-                />
-                <p className="text-sm md:text-base">Unity</p>
-              </div>
-              <div className="Card md:w-48 invisible">
-                <Image
-                  width={300}
-                  height={300}
-                  src="/Icons/unity-svgrepo-com.svg"
+                  src="/Icons/flutter-svgrepo-com.svg"
                   className="Button"
                   alt=""
                 />
