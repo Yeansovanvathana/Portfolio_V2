@@ -1,10 +1,31 @@
 export const Exp = [
   {
+    id: 0,
+    project: "AI Recommender Hub",
+    img: "/Icons/BirdInitiation.png",
+    project_description: "Unlock the Potential of AI with Our Top Picks.",
+
+    job_level: "Junior Level",
+    Type: "Personal Project",
+    Company: "Personal Project",
+    position: "Developer",
+    project_id: "AI Service Recommendation",
+    work_exp: [
+      "- Design UI with figma and implement with react js and next js.",
+      "- Additionally, I have learn to use recoil as state management and manage new feature",
+    ],
+    tools: ["React js", "Next js", "Figma"],
+    demo: "/projects/Ai recommender hub.png",
+    github_status: "Github",
+    github: "https://github.com/Yeansovanvathana/AI-Service-Recommendation",
+    video_demo: "",
+    publish: "https://ai-recommender-hub.vercel.app/",
+  },
+  {
     id: 1,
     project: "JolMer",
     img: "/Icons/jolmer2.png",
     project_description: "Competition and volunteer event system",
-    project_date: "May 19, 2023 - Present",
     job_level: "Entry Level",
     Type: "Bootcamp",
     Company: "Bootcamp form KDC (KIT)",
@@ -23,14 +44,13 @@ export const Exp = [
     github:
       "https://github.com/incubation-center/B8-FullStack--Website--Group5",
     video_demo: "https://youtu.be/P24sjJw_Xpo",
-    publish: "https://www.jolmer.me/",
+    publish: "https://jolmer-frontend.vercel.app/",
   },
   {
     id: 2,
     project: "Chatbot",
     img: "/Icons/chatbot.jpg",
     project_description: "Online Event Management Using Chatbot",
-    project_date: "January 1, 2022 - April 1, 2022",
     job_level: "Junior Level",
     Type: "Internship",
     Company: "The internship from Japanese Company",
@@ -55,7 +75,6 @@ export const Exp = [
     project: "Point of Sale System",
     img: "/Icons/pos.svg",
     project_description: "Shop Mangement System And Print Invoice",
-    project_date: "November 11, 2022 - January 20, 2023",
     job_level: "Junior Level",
     Type: "Internship",
     Company: "The internship from Incubation Center(KIT)",
@@ -80,7 +99,6 @@ export const Exp = [
     img: "/Icons/vnham.png",
     project_description:
       "Vnham, a food delivery application, is located in the Kirirom Mountain",
-    project_date: "January 24, 2022 - March 14, 2022",
     job_level: "Junior Level",
     Type: "Internship",
     Company: "The internship from Incubation Center(KIT)",
@@ -106,7 +124,6 @@ export const Exp = [
     img: "/Icons/zombitemeIcon.png",
     project_description:
       "Zombiteme is the journey game that go through zombie places",
-    project_date: "May 1, 2022 - August 1, 2022",
     job_level: "Junior Level",
     Type: "Internship",
     Company: "The internship from Incubation Center(KIT)",
@@ -131,7 +148,6 @@ export const Exp = [
     img: "/Icons/KEEN.jpg",
     project_description:
       "Food rating system for collects data to help improve the quality of food in moringa(KIT)",
-    project_date: "July 1, 2022 - September 30, 2022",
     job_level: "Junior Level",
     Type: "Internship",
     Company: "The internship from Virtual Company (KEEN)",
@@ -156,7 +172,6 @@ export const Exp = [
     img: "/Icons/otp.png",
     project_description:
       "The project implemented a simple OTP system for user authentication",
-    project_date: "February 17, 2022 - March 14, 2023",
     job_level: "Junior Level",
     Type: "Internship",
     Company: "Task from Japanese Company(Internship)",
@@ -179,7 +194,7 @@ export const Exp = [
     img: "/Icons/health.jpg",
     project_description:
       "Tracking Personal health by review and checking note on each day",
-    project_date: "April 1, 2022 - May 1, 2023",
+
     job_level: "Junior Level",
     Type: "Personal Project",
     Company: "Personal Project",
@@ -202,7 +217,7 @@ export const Exp = [
     img: "/Icons/Spotify_icon.svg.png",
     project_description:
       "Spotify clone 2.0 with the latest update UI of spotify 2023",
-    project_date: "May 22, 2023 - May 25, 2023",
+
     job_level: "Junior Level",
     Type: "Personal Project",
     Company: "Personal Project",
@@ -218,27 +233,5 @@ export const Exp = [
     github: "https://github.com/Yeansovanvathana/Spotify_2.0.git",
     video_demo: "",
     publish: "https://vathana-spotify.vercel.app/login",
-  },
-  {
-    id: 10,
-    project: "AI Recommender Hub",
-    img: "/Icons/BirdInitiation.png",
-    project_description: "Unlock the Potential of AI with Our Top Picks.",
-    project_date: "Sep 13, 2023 - Sep 15, 2023",
-    job_level: "Junior Level",
-    Type: "Personal Project",
-    Company: "Personal Project",
-    position: "Developer",
-    project_id: "AI Service Recommendation",
-    work_exp: [
-      "- Design UI with figma and implement with react js and next js.",
-      "- Additionally, I have learn to use recoil as state management and manage new feature",
-    ],
-    tools: ["React js", "Next js", "Figma"],
-    demo: "/projects/Ai recommender hub.png",
-    github_status: "Github",
-    github: "https://github.com/Yeansovanvathana/AI-Service-Recommendation",
-    video_demo: "",
-    publish: "https://ai-recommender-hub.vercel.app/",
   },
 ];
