@@ -67,7 +67,7 @@ export default function Home() {
         </motion.div>
       </div>
 
-      <div className="">
+      {/* <div className="">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -75,7 +75,7 @@ export default function Home() {
         >
           <Design />
         </motion.div>
-      </div>
+      </div> */}
 
       <div className="">
         <motion.div
