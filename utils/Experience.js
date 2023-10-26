@@ -40,7 +40,7 @@ export const Exp = [
     github_status: "Github",
     github: "https://github.com/cheachansineath/flirt-fever-backend.git",
     video_demo: "https://youtu.be/vslAjV5FmF0",
-    publish: "https://flirt-fever.vercel.app/auth",
+    publish: "https://flirt-fever.vercel.app",
   },
   {
     id: 1,
