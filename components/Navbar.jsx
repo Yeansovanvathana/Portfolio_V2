@@ -140,15 +140,15 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 </svg>
               </button>
               {selectedPage === "Design" && (
-                <div className="absolute left-[-20px] mt-2 py-2 w-40 bg-primary-200 rounded-md shadow-lg">
-                  <div className="block px-4 py-2 text-sm text-gray-600 hover:bg-primary-100">
+                <div className="absolute left-[-20px] mt-2 py-2 w-40 bg-primary-200 dark:bg-gray-600  rounded-md shadow-lg">
+                  <div className="block px-4 py-2 text-sm text-gray-600 dark:text-white hover:bg-primary-100 dark:hover:bg-gray-800">
                     <Link
                       page="Design"
                       selectedPage={selectedPage}
                       setSelectedPage={setSelectedPage}
                     />
                   </div>
-                  <div className="block px-4 py-2 text-sm text-gray-600 hover:bg-primary-100">
+                  <div className="block px-4 py-2 text-sm text-gray-600 dark:text-white hover:bg-primary-100 dark:hover:bg-gray-800">
                     <Link
                       page="experience"
                       selectedPage={selectedPage}

@@ -1,6 +1,6 @@
 export const Exp = [
   {
-    id: 0,
+    id: -1,
     project: "AI Recommender Hub",
     img: "/Icons/BirdInitiation.png",
     project_description: "Unlock the Potential of AI with Our Top Picks.",
@@ -20,6 +20,27 @@ export const Exp = [
     github: "https://github.com/Yeansovanvathana/AI-Service-Recommendation",
     video_demo: "",
     publish: "https://ai-recommender-hub.vercel.app/",
+  },
+  {
+    id: 0,
+    project: "Flirt Fever",
+    img: "/Icons/Logo icon - Primary.png",
+    project_description: "Join a journey of exciting connection",
+    job_level: "Entry Level",
+    Type: "Bootcamp",
+    Company: "Bootcamp form KDC (KIT)",
+    position: "Developer",
+    project_id: "Flirt Fever",
+    work_exp: [
+      "- Design real chat to connect with people and implement with nest js and websocket.",
+      "- Additionally, I have work on the design screen on android studio and implement chat function with kotlin",
+    ],
+    tools: ["Nest js", "Websocket", "Kotlin"],
+    demo: "/projects/flirtfever.png",
+    github_status: "Github",
+    github: "https://github.com/cheachansineath/flirt-fever-backend.git",
+    video_demo: "https://youtu.be/vslAjV5FmF0",
+    publish: "",
   },
   {
     id: 1,
