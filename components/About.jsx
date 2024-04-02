@@ -31,7 +31,7 @@ export const About = () => {
                 value the insights gained from collaborating with others.
               </p>
               <p className="text-sm md:text-base">
-                With 2.5 years of experience as a software developer, I have
+                With 3 years of experience as a software developer, I have
                 gained extensive experience in development, I am confident in my
                 ability to work collaboratively or independently to achieve
                 project goals.

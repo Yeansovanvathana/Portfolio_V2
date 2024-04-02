@@ -13,7 +13,7 @@ export const Project = () => {
 
   return (
     <section
-      id="experience"
+      id="portfolio"
       className="lg:h-full flex justify-center items-center "
     >
       <div className="max-w-screen-xl mx-auto lg:px-20 w-full mt-20">
@@ -157,14 +157,14 @@ export const Project = () => {
                           </button>
                         )}
 
-                        <button
+                        {/* <button
                           className="bg-secondary-200 shadow text-white drop-shadow-sm p-2 rounded-lg text-sm font-semibold"
                           onClick={() => {
                             window.open(data.github, "_blank");
                           }}
                         >
                           {data.github_status}
-                        </button>
+                        </button> */}
                       </div>
                     </div>
                   </motion.div>

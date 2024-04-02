@@ -101,17 +101,17 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            {/* <Link
-              page="Skills"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            /> */}
             <Link
               page="Skills"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <div className="relative">
+            <Link
+              page="Portfolio"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+            {/* <div className="relative">
               <button
                 type="button"
                 className={`${
@@ -157,7 +157,7 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                   </div>
                 </div>
               )}
-            </div>
+            </div> */}
 
             <Link
               page="About"
@@ -200,13 +200,13 @@ export const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <Link
+            {/* <Link
               page="Design"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
-            />
+            /> */}
             <Link
-              page="Experience"
+              page="Portfolio"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />

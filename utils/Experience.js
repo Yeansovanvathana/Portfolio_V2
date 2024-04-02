@@ -4,7 +4,6 @@ export const Exp = [
     project: "AI Recommender Hub",
     img: "/Icons/BirdInitiation.png",
     project_description: "Unlock the Potential of AI with Our Top Picks.",
-
     job_level: "Junior Level",
     Type: "Personal Project",
     Company: "Personal Project",
